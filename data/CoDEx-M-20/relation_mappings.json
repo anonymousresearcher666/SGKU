@@ -1,0 +1,724 @@
+{
+  "relation_to_id": {
+    "P101": 0,
+    "P102": 2,
+    "P1050": 4,
+    "P1056": 6,
+    "P106": 8,
+    "P108": 10,
+    "P112": 12,
+    "P113": 14,
+    "P119": 16,
+    "P1303": 18,
+    "P131": 20,
+    "P135": 22,
+    "P136": 24,
+    "P138": 26,
+    "P140": 28,
+    "P1412": 30,
+    "P159": 32,
+    "P161": 34,
+    "P17": 36,
+    "P172": 38,
+    "P19": 40,
+    "P20": 42,
+    "P2283": 44,
+    "P2348": 46,
+    "P26": 48,
+    "P264": 50,
+    "P27": 52,
+    "P30": 54,
+    "P3095": 56,
+    "P3373": 58,
+    "P361": 60,
+    "P37": 62,
+    "P40": 64,
+    "P407": 66,
+    "P451": 68,
+    "P452": 70,
+    "P463": 72,
+    "P495": 74,
+    "P50": 76,
+    "P509": 78,
+    "P530": 80,
+    "P54": 82,
+    "P551": 84,
+    "P57": 86,
+    "P641": 88,
+    "P69": 90,
+    "P737": 92,
+    "P740": 94,
+    "P749": 96,
+    "P780": 98,
+    "P840": 100
+  },
+  "id_to_relation": {
+    "0": "P101",
+    "2": "P102",
+    "4": "P1050",
+    "6": "P1056",
+    "8": "P106",
+    "10": "P108",
+    "12": "P112",
+    "14": "P113",
+    "16": "P119",
+    "18": "P1303",
+    "20": "P131",
+    "22": "P135",
+    "24": "P136",
+    "26": "P138",
+    "28": "P140",
+    "30": "P1412",
+    "32": "P159",
+    "34": "P161",
+    "36": "P17",
+    "38": "P172",
+    "40": "P19",
+    "42": "P20",
+    "44": "P2283",
+    "46": "P2348",
+    "48": "P26",
+    "50": "P264",
+    "52": "P27",
+    "54": "P30",
+    "56": "P3095",
+    "58": "P3373",
+    "60": "P361",
+    "62": "P37",
+    "64": "P40",
+    "66": "P407",
+    "68": "P451",
+    "70": "P452",
+    "72": "P463",
+    "74": "P495",
+    "76": "P50",
+    "78": "P509",
+    "80": "P530",
+    "82": "P54",
+    "84": "P551",
+    "86": "P57",
+    "88": "P641",
+    "90": "P69",
+    "92": "P737",
+    "94": "P740",
+    "96": "P749",
+    "98": "P780",
+    "100": "P840"
+  },
+  "relation_to_types": {
+    "P101": [
+      "Q5",
+      "Q11862829"
+    ],
+    "P102": [
+      "Q5",
+      "Q7278"
+    ],
+    "P1050": [
+      "Q5",
+      "Q12136"
+    ],
+    "P1056": [
+      "Q2442401",
+      "Q1047113"
+    ],
+    "P106": [
+      "Q5",
+      "Q28640"
+    ],
+    "P108": [
+      "Q5",
+      "Entity"
+    ],
+    "P112": [
+      "Q18127",
+      "Q5"
+    ],
+    "P113": [
+      "Q190915",
+      "Q515"
+    ],
+    "P119": [
+      "Q5",
+      "Q39614"
+    ],
+    "P1303": [
+      "Q5",
+      "Q34379"
+    ],
+    "P131": [
+      "Q1549591",
+      "Entity"
+    ],
+    "P135": [
+      "Q5",
+      "Q968159"
+    ],
+    "P136": [
+      "Q5",
+      "Q188451"
+    ],
+    "P138": [
+      "Q3624078",
+      "Entity"
+    ],
+    "P140": [
+      "Q5",
+      "Entity"
+    ],
+    "P1412": [
+      "Entity",
+      "Q34770"
+    ],
+    "P159": [
+      "Q18127",
+      "Entity"
+    ],
+    "P161": [
+      "Q11424",
+      "Q5"
+    ],
+    "P17": [
+      "Q1549591",
+      "Q3624078"
+    ],
+    "P172": [
+      "Entity",
+      "Q41710"
+    ],
+    "P19": [
+      "Q5",
+      "Q1549591"
+    ],
+    "P20": [
+      "Q5",
+      "Entity"
+    ],
+    "P2283": [
+      "Q11424",
+      "Q7397"
+    ],
+    "P2348": [
+      "Q5",
+      "Q578"
+    ],
+    "P26": [
+      "Q5",
+      "Q5"
+    ],
+    "P264": [
+      "Q5",
+      "Q18127"
+    ],
+    "P27": [
+      "Q5",
+      "Q3624078"
+    ],
+    "P30": [
+      "Entity",
+      "Q5107"
+    ],
+    "P3095": [
+      "Q47280",
+      "Q6266"
+    ],
+    "P3373": [
+      "Q5",
+      "Q5"
+    ],
+    "P361": [
+      "Q3624078",
+      "Q82794"
+    ],
+    "P37": [
+      "Entity",
+      "Q34770"
+    ],
+    "P40": [
+      "Q5",
+      "Q5"
+    ],
+    "P407": [
+      "Q1259759",
+      "Q34770"
+    ],
+    "P451": [
+      "Q5",
+      "Q5"
+    ],
+    "P452": [
+      "Q18127",
+      "Q268592"
+    ],
+    "P463": [
+      "Q5",
+      "Entity"
+    ],
+    "P495": [
+      "Q11424",
+      "Q6256"
+    ],
+    "P50": [
+      "Q3331189",
+      "Q5"
+    ],
+    "P509": [
+      "Q5",
+      "Q1931388"
+    ],
+    "P530": [
+      "Entity",
+      "Q6256"
+    ],
+    "P54": [
+      "Q5",
+      "Q6256"
+    ],
+    "P551": [
+      "Q5",
+      "Q1637706"
+    ],
+    "P57": [
+      "Q11424",
+      "Q5"
+    ],
+    "P641": [
+      "Q5",
+      "Q31629"
+    ],
+    "P69": [
+      "Q5",
+      "Entity"
+    ],
+    "P737": [
+      "Q5",
+      "Entity"
+    ],
+    "P740": [
+      "Q215380",
+      "Q1549591"
+    ],
+    "P749": [
+      "Q18127",
+      "Q2442401"
+    ],
+    "P780": [
+      "Q609748",
+      "Q12136"
+    ],
+    "P840": [
+      "Q11424",
+      "Entity"
+    ]
+  },
+  "relation_schema": {
+    "P101": {
+      "domain": "Q5",
+      "range": "Q11862829",
+      "label": "field of work",
+      "description": "specialization of a person or organization; see P106 for the occupation",
+      "domain_source": "wikidata_constraint",
+      "range_source": "data_fallback"
+    },
+    "P102": {
+      "domain": "Q5",
+      "range": "Q7278",
+      "label": "member of political party",
+      "description": "the political party of which this politician is or has been a member",
+      "domain_source": "wikidata_constraint",
+      "range_source": "wikidata_constraint"
+    },
+    "P1050": {
+      "domain": "Q5",
+      "range": "Q12136",
+      "label": "medical condition",
+      "description": "any state relevant to the health of an organism, including diseases and positive conditions",
+      "domain_source": "data_fallback",
+      "range_source": "wikidata_constraint"
+    },
+    "P1056": {
+      "domain": "Q2442401",
+      "range": "Q1047113",
+      "label": "product or material produced",
+      "description": "material or product produced by a government agency, business, industry, facility, or process",
+      "domain_source": "data_fallback",
+      "range_source": "data_fallback"
+    },
+    "P106": {
+      "domain": "Q5",
+      "range": "Q28640",
+      "label": "occupation",
+      "description": "occupation of a person; see also \"field of work\" (Property:P101), \"position held\" (Property:P39)",
+      "domain_source": "wikidata_constraint",
+      "range_source": "wikidata_constraint"
+    },
+    "P108": {
+      "domain": "Q5",
+      "range": "Entity",
+      "label": "employer",
+      "description": "person or organization for which the subject works or worked",
+      "domain_source": "wikidata_constraint",
+      "range_source": "low_confidence_entity"
+    },
+    "P112": {
+      "domain": "Q18127",
+      "range": "Q5",
+      "label": "founded by",
+      "description": "founder or co-founder of this organization, religion or place",
+      "domain_source": "wikidata_constraint",
+      "range_source": "wikidata_constraint"
+    },
+    "P113": {
+      "domain": "Q190915",
+      "range": "Q515",
+      "label": "airline hub",
+      "description": "airport that serves as a hub for an airline",
+      "domain_source": "data_fallback",
+      "range_source": "data_fallback"
+    },
+    "P119": {
+      "domain": "Q5",
+      "range": "Q39614",
+      "label": "place of burial",
+      "description": "location of grave, resting place, place of ash-scattering, etc, (e.g. town/city or cemetery) for a person or animal. There may be several places: e.g. re-burials, cenotaphs, parts of body buried separately.",
+      "domain_source": "wikidata_constraint",
+      "range_source": "wikidata_constraint"
+    },
+    "P1303": {
+      "domain": "Q5",
+      "range": "Q34379",
+      "label": "instrument",
+      "description": "musical instrument that a person plays",
+      "domain_source": "wikidata_constraint",
+      "range_source": "wikidata_constraint"
+    },
+    "P131": {
+      "domain": "Q1549591",
+      "range": "Entity",
+      "label": "located in the administrative terroritorial entity",
+      "description": "the item is located on the territory of the following administrative entity. Use P276 (location) for specifying locations that are non-administrative places and for items about events",
+      "domain_source": "llm_fallback",
+      "range_source": "low_confidence_entity"
+    },
+    "P135": {
+      "domain": "Q5",
+      "range": "Q968159",
+      "label": "movement",
+      "description": "literary, artistic, scientific or philosophical movement or scene associated with this person or work",
+      "domain_source": "wikidata_constraint",
+      "range_source": "wikidata_constraint"
+    },
+    "P136": {
+      "domain": "Q5",
+      "range": "Q188451",
+      "label": "genre",
+      "description": "creative work's genre or an artist's field of work (P101). Use main subject (P921) to relate creative works to their topic",
+      "domain_source": "wikidata_constraint",
+      "range_source": "wikidata_constraint"
+    },
+    "P138": {
+      "domain": "Q3624078",
+      "range": "Entity",
+      "label": "named after",
+      "description": "entity or event that inspired the subject's name, or namesake (in at least one language). Qualifier \"applies to name\" (P5168) can be used to indicate which one",
+      "domain_source": "llm_fallback",
+      "range_source": "low_confidence_entity"
+    },
+    "P140": {
+      "domain": "Q5",
+      "range": "Entity",
+      "label": "religion",
+      "description": "religion of a person, organization or religious building, or associated with this subject",
+      "domain_source": "wikidata_constraint",
+      "range_source": "low_confidence_entity"
+    },
+    "P1412": {
+      "domain": "Entity",
+      "range": "Q34770",
+      "label": "languages spoken, written, or signed",
+      "description": "language(s) that a person speaks, writes or signs, including the native language(s)",
+      "domain_source": "low_confidence_entity",
+      "range_source": "data_fallback"
+    },
+    "P159": {
+      "domain": "Q18127",
+      "range": "Entity",
+      "label": "headquarters location",
+      "description": "specific location where an organization's headquarters is or has been situated. Inverse property of \"occupant\" (P466).",
+      "domain_source": "data_fallback",
+      "range_source": "low_confidence_entity"
+    },
+    "P161": {
+      "domain": "Q11424",
+      "range": "Q5",
+      "label": "cast member",
+      "description": "actor in the subject production [use \"character role\" (P453) and/or \"name of the character role\" (P4633) as qualifiers] [use \"voice actor\" (P725) for voice-only role]",
+      "domain_source": "data_fallback",
+      "range_source": "wikidata_constraint"
+    },
+    "P17": {
+      "domain": "Q1549591",
+      "range": "Q3624078",
+      "label": "country",
+      "description": "sovereign state of this item; don't use on humans",
+      "domain_source": "data_fallback",
+      "range_source": "wikidata_constraint"
+    },
+    "P172": {
+      "domain": "Entity",
+      "range": "Q41710",
+      "label": "ethnic group",
+      "description": "subject's ethnicity (consensus is that a VERY high standard of proof is needed for this field to be used. In general this means 1) the subject claims it themself, or 2) it is widely agreed on by scholars, or 3) is fictional and portrayed as such)",
+      "domain_source": "low_confidence_entity",
+      "range_source": "wikidata_constraint"
+    },
+    "P19": {
+      "domain": "Q5",
+      "range": "Q1549591",
+      "label": "place of birth",
+      "description": "most specific known (e.g. city instead of country, or hospital instead of city) birth location of a person, animal or fictional character",
+      "domain_source": "wikidata_constraint",
+      "range_source": "data_fallback"
+    },
+    "P20": {
+      "domain": "Q5",
+      "range": "Entity",
+      "label": "place of death",
+      "description": "most specific known (e.g. city instead of country, or hospital instead of city) death location of a person, animal or fictional character",
+      "domain_source": "wikidata_constraint",
+      "range_source": "low_confidence_entity"
+    },
+    "P2283": {
+      "domain": "Q11424",
+      "range": "Q7397",
+      "label": "uses",
+      "description": "item or concept used by the subject or in the operation (see also instrument [P1303] and armament [P520])",
+      "domain_source": "data_fallback",
+      "range_source": "data_fallback"
+    },
+    "P2348": {
+      "domain": "Q5",
+      "range": "Q578",
+      "label": "time period",
+      "description": "time period (historic period or era, sports season, theatre season, legislative period etc.) in which the subject occurred",
+      "domain_source": "llm_fallback",
+      "range_source": "data_fallback"
+    },
+    "P26": {
+      "domain": "Q5",
+      "range": "Q5",
+      "label": "spouse",
+      "description": "the subject has the object as their spouse (husband, wife, partner, etc.). Use \"unmarried partner\" (P451) for non-married companions",
+      "domain_source": "wikidata_constraint",
+      "range_source": "data_fallback"
+    },
+    "P264": {
+      "domain": "Q5",
+      "range": "Q18127",
+      "label": "record label",
+      "description": "brand and trademark associated with the marketing of subject music recordings and music videos",
+      "domain_source": "wikidata_constraint",
+      "range_source": "wikidata_constraint"
+    },
+    "P27": {
+      "domain": "Q5",
+      "range": "Q3624078",
+      "label": "country of citizenship",
+      "description": "the object is a country that recognizes the subject as its citizen",
+      "domain_source": "wikidata_constraint",
+      "range_source": "wikidata_constraint"
+    },
+    "P30": {
+      "domain": "Entity",
+      "range": "Q5107",
+      "label": "continent",
+      "description": "continent of which the subject is a part",
+      "domain_source": "low_confidence_entity",
+      "range_source": "wikidata_constraint"
+    },
+    "P3095": {
+      "domain": "Q47280",
+      "range": "Q6266",
+      "label": "practiced by",
+      "description": "type of agents that study this subject or work in this profession",
+      "domain_source": "llm_fallback",
+      "range_source": "data_fallback"
+    },
+    "P3373": {
+      "domain": "Q5",
+      "range": "Q5",
+      "label": "sibling",
+      "description": "the subject has the object as their sibling (brother, sister, etc.). Use \"relative\" (P1038) for siblings-in-law (brother-in-law, sister-in-law, etc.) and step-siblings (step-brothers, step-sisters, etc.)",
+      "domain_source": "wikidata_constraint",
+      "range_source": "llm_fallback"
+    },
+    "P361": {
+      "domain": "Q3624078",
+      "range": "Q82794",
+      "label": "part of",
+      "description": "object of which the subject is a part (if this subject is already part of object A which is a part of object B, then please only make the subject part of object A). Inverse property of \"has part\" (P527, see also \"has parts of the class\" (P2670)).",
+      "domain_source": "llm_fallback",
+      "range_source": "data_fallback"
+    },
+    "P37": {
+      "domain": "Entity",
+      "range": "Q34770",
+      "label": "official language",
+      "description": "language designated as official by this item",
+      "domain_source": "low_confidence_entity",
+      "range_source": "data_fallback"
+    },
+    "P40": {
+      "domain": "Q5",
+      "range": "Q5",
+      "label": "child",
+      "description": "subject has object as biological, foster, and/or adoptive child",
+      "domain_source": "wikidata_constraint",
+      "range_source": "wikidata_constraint"
+    },
+    "P407": {
+      "domain": "Q1259759",
+      "range": "Q34770",
+      "label": "language of work or name",
+      "description": "language associated with this creative work (such as books, shows, songs, or websites) or a name (for persons use \"native language\" (P103) and \"languages spoken, written or signed\" (P1412))",
+      "domain_source": "data_fallback",
+      "range_source": "data_fallback"
+    },
+    "P451": {
+      "domain": "Q5",
+      "range": "Q5",
+      "label": "unmarried partner",
+      "description": "someone with whom the person is in a relationship without being married. Use \"spouse\" (P26) for married couples",
+      "domain_source": "wikidata_constraint",
+      "range_source": "wikidata_constraint"
+    },
+    "P452": {
+      "domain": "Q18127",
+      "range": "Q268592",
+      "label": "industry",
+      "description": "industry of company or organization",
+      "domain_source": "data_fallback",
+      "range_source": "wikidata_constraint"
+    },
+    "P463": {
+      "domain": "Q5",
+      "range": "Entity",
+      "label": "member of",
+      "description": "organization, musical group, or club to which the subject belongs. Do not use for membership in ethnic or social groups, nor for holding a position such as a member of parliament (use P39 for that).",
+      "domain_source": "wikidata_constraint",
+      "range_source": "low_confidence_entity"
+    },
+    "P495": {
+      "domain": "Q11424",
+      "range": "Q6256",
+      "label": "country of origin",
+      "description": "country of origin of this item (creative work, food, phrase, product, etc.)",
+      "domain_source": "data_fallback",
+      "range_source": "wikidata_constraint"
+    },
+    "P50": {
+      "domain": "Q3331189",
+      "range": "Q5",
+      "label": "author",
+      "description": "main creator(s) of a written work (use on works, not humans); use P2093 when Wikidata item is unknown or does not exist",
+      "domain_source": "wikidata_constraint",
+      "range_source": "wikidata_constraint"
+    },
+    "P509": {
+      "domain": "Q5",
+      "range": "Q1931388",
+      "label": "cause of death",
+      "description": "underlying or immediate cause of death.  Underlying cause (e.g. car accident, stomach cancer) preferred.  Use 'manner of death' (P1196) for broadest category, e.g. natural causes, accident, homicide, suicide",
+      "domain_source": "data_fallback",
+      "range_source": "wikidata_constraint"
+    },
+    "P530": {
+      "domain": "Entity",
+      "range": "Q6256",
+      "label": "diplomatic relation",
+      "description": "diplomatic relations of the country",
+      "domain_source": "low_confidence_entity",
+      "range_source": "wikidata_constraint"
+    },
+    "P54": {
+      "domain": "Q5",
+      "range": "Q6256",
+      "label": "member of sports team",
+      "description": "sports teams or clubs that the subject currently represents or formerly represented",
+      "domain_source": "wikidata_constraint",
+      "range_source": "data_fallback"
+    },
+    "P551": {
+      "domain": "Q5",
+      "range": "Q1637706",
+      "label": "residence",
+      "description": "the place where the person is or has been, resident",
+      "domain_source": "wikidata_constraint",
+      "range_source": "llm_fallback"
+    },
+    "P57": {
+      "domain": "Q11424",
+      "range": "Q5",
+      "label": "director",
+      "description": "director(s) of film, TV-series, stageplay, video game or similar",
+      "domain_source": "wikidata_constraint",
+      "range_source": "wikidata_constraint"
+    },
+    "P641": {
+      "domain": "Q5",
+      "range": "Q31629",
+      "label": "sport",
+      "description": "sport in which the subject participates or belongs to",
+      "domain_source": "data_fallback",
+      "range_source": "wikidata_constraint"
+    },
+    "P69": {
+      "domain": "Q5",
+      "range": "Entity",
+      "label": "educated at",
+      "description": "educational institution attended by subject",
+      "domain_source": "wikidata_constraint",
+      "range_source": "low_confidence_entity"
+    },
+    "P737": {
+      "domain": "Q5",
+      "range": "Entity",
+      "label": "influenced by",
+      "description": "this person, idea, etc. is informed by that other person, idea, etc., e.g. \"Heidegger was influenced by Aristotle\".",
+      "domain_source": "data_fallback",
+      "range_source": "low_confidence_entity"
+    },
+    "P740": {
+      "domain": "Q215380",
+      "range": "Q1549591",
+      "label": "location of formation",
+      "description": "location where a group or organization was formed",
+      "domain_source": "wikidata_constraint",
+      "range_source": "data_fallback"
+    },
+    "P749": {
+      "domain": "Q18127",
+      "range": "Q2442401",
+      "label": "parent organization",
+      "description": "parent organization of an organization, opposite of subsidiaries (P355)",
+      "domain_source": "data_fallback",
+      "range_source": "data_fallback"
+    },
+    "P780": {
+      "domain": "Q609748",
+      "range": "Q12136",
+      "label": "symptoms",
+      "description": "possible symptoms of a medical condition",
+      "domain_source": "data_fallback",
+      "range_source": "data_fallback"
+    },
+    "P840": {
+      "domain": "Q11424",
+      "range": "Entity",
+      "label": "narrative location",
+      "description": "the narrative of the work is set in this location",
+      "domain_source": "data_fallback",
+      "range_source": "low_confidence_entity"
+    }
+  }
+}

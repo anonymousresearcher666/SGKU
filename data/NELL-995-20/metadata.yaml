@@ -1,0 +1,9 @@
+dataset: NELL-995-20
+source: OpenKE NELL-995
+raw_base_url: https://raw.githubusercontent.com/thunlp/OpenKE/OpenKE-PyTorch/benchmarks/NELL-995
+triples_merged: 154213
+entities: 75492
+relations: 200
+timesteps_num: 3
+per_step_percentage: 20
+seed: 42

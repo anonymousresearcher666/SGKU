@@ -1,0 +1,9 @@
+dataset: CoDEx-M-20
+source: CoDEx (M)
+source_repo: https://github.com/tsafavi/codex
+entities: 17050
+relations: 51
+triples_merged: 206205
+timesteps_num: 3
+per_step_percentage: 20
+seed: 42

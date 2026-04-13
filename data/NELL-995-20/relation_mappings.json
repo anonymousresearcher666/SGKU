@@ -1,0 +1,2010 @@
+{
+  "relation_to_id": {
+    "concept:academicfieldconcernssubject": 0,
+    "concept:academicfieldsuchasacademicfield": 2,
+    "concept:academicprogramatuniversity": 4,
+    "concept:acquired": 6,
+    "concept:actorstarredinmovie": 8,
+    "concept:agentactsinlocation": 10,
+    "concept:agentbelongstoorganization": 12,
+    "concept:agentcollaborateswithagent": 14,
+    "concept:agentcompeteswithagent": 16,
+    "concept:agentcontributedtocreativework": 18,
+    "concept:agentcontrols": 20,
+    "concept:agentcreated": 22,
+    "concept:agentinvolvedwithitem": 24,
+    "concept:agentparticipatedinevent": 26,
+    "concept:agriculturalproductcamefromcountry": 28,
+    "concept:agriculturalproductcomingfromvertebrate": 30,
+    "concept:agriculturalproductcontainchemical": 32,
+    "concept:agriculturalproductcookedwithagriculturalproduct": 34,
+    "concept:agriculturalproductcutintogeometricshape": 36,
+    "concept:agriculturalproductgrowinginstateorprovince": 38,
+    "concept:agriculturalproductgrowninlandscapefeatures": 40,
+    "concept:agriculturalproductincludingagriculturalproduct": 42,
+    "concept:agriculturalproducttoattractinsect": 44,
+    "concept:airportincity": 46,
+    "concept:animaldevelopdisease": 48,
+    "concept:animaleatfood": 50,
+    "concept:animaleatvegetable": 52,
+    "concept:animalistypeofanimal": 54,
+    "concept:animalpreyson": 56,
+    "concept:animalsuchasfish": 58,
+    "concept:animalsuchasinsect": 60,
+    "concept:animalsuchasinvertebrate": 62,
+    "concept:animalthatfeedoninsect": 64,
+    "concept:arterycalledartery": 66,
+    "concept:arthropodandotherarthropod": 68,
+    "concept:arthropodcalledarthropod": 70,
+    "concept:atdate": 72,
+    "concept:athletebeatathlete": 74,
+    "concept:athleteflyouttosportsteamposition": 76,
+    "concept:athletehomestadium": 78,
+    "concept:athleteinjuredhisbodypart": 80,
+    "concept:athleteledsportsteam": 82,
+    "concept:athleteplaysforteam": 84,
+    "concept:athleteplaysinleague": 86,
+    "concept:athleteplayssport": 88,
+    "concept:athleteplayssportsteamposition": 90,
+    "concept:athletewinsawardtrophytournament": 92,
+    "concept:atlocation": 94,
+    "concept:attractionofcity": 96,
+    "concept:automakerproducesmodel": 98,
+    "concept:automobilemakercardealersinstateorprovince": 100,
+    "concept:automobilemakerdealersincity": 102,
+    "concept:automobilemakerdealersincountry": 104,
+    "concept:awardtrophytournamentisthechampionshipgameofthenationalsport": 106,
+    "concept:bacteriaisthecausativeagentofphysiologicalcondition": 108,
+    "concept:bakedgoodservedwithbeverage": 110,
+    "concept:bankbankincountry": 112,
+    "concept:bankboughtbank": 114,
+    "concept:beveragecontainsprotein": 116,
+    "concept:beveragemadefrombeverage": 118,
+    "concept:bodypartcontainsbodypart": 120,
+    "concept:bookwriter": 122,
+    "concept:buildingfeaturemadefrombuildingmaterial": 124,
+    "concept:buildinglocatedincity": 126,
+    "concept:ceoof": 128,
+    "concept:chemicalistypeofchemical": 130,
+    "concept:cityalsoknownas": 132,
+    "concept:citycapitalofcountry": 134,
+    "concept:cityliesonriver": 136,
+    "concept:citylocatedincountry": 138,
+    "concept:citylocatedingeopoliticallocation": 140,
+    "concept:citylocatedinstate": 142,
+    "concept:clothingmadefromplant": 144,
+    "concept:clothingtogowithclothing": 146,
+    "concept:coachesinleague": 148,
+    "concept:coachesteam": 150,
+    "concept:coachwontrophy": 152,
+    "concept:companyalsoknownas": 154,
+    "concept:companyeconomicsector": 156,
+    "concept:competeswith": 158,
+    "concept:conceptprerequisiteof": 160,
+    "concept:countryalsoknownas": 162,
+    "concept:countrycurrency": 164,
+    "concept:countrylocatedingeopoliticallocation": 166,
+    "concept:directordirectedmovie": 168,
+    "concept:drughassideeffect": 170,
+    "concept:drugpossiblytreatsphysiologicalcondition": 172,
+    "concept:drugworkedonbyagent": 174,
+    "concept:emotionassociatedwithdisease": 176,
+    "concept:fatherofperson": 178,
+    "concept:fishservedwithfood": 180,
+    "concept:foodcancausedisease": 182,
+    "concept:fooddecreasestheriskofdisease": 184,
+    "concept:furniturefoundinroom": 186,
+    "concept:hashusband": 188,
+    "concept:hasofficeincity": 190,
+    "concept:hasofficeincountry": 192,
+    "concept:hassibling": 194,
+    "concept:hasspouse": 196,
+    "concept:haswife": 198,
+    "concept:headquarteredin": 200,
+    "concept:hobbiessuchashobbies": 202,
+    "concept:hotelincity": 204,
+    "concept:invertebratefeedonfood": 206,
+    "concept:ismultipleof": 208,
+    "concept:istallerthan": 210,
+    "concept:itemfoundinroom": 212,
+    "concept:journalistwritesforpublication": 214,
+    "concept:lakeinstate": 216,
+    "concept:languageofcountry": 218,
+    "concept:languageofuniversity": 220,
+    "concept:latitudelongitude": 222,
+    "concept:leaguestadiums": 224,
+    "concept:locationlocatedwithinlocation": 226,
+    "concept:mammalsuchasmammal": 228,
+    "concept:motherofperson": 230,
+    "concept:mountaininstate": 232,
+    "concept:museumincity": 234,
+    "concept:musicartistgenre": 236,
+    "concept:musicgenressuchasmusicgenres": 238,
+    "concept:musicianinmusicartist": 240,
+    "concept:musicianplaysinstrument": 242,
+    "concept:mutualproxyfor": 244,
+    "concept:newspaperincity": 246,
+    "concept:objectfoundinscene": 248,
+    "concept:objectpartofobject": 250,
+    "concept:organizationacronymhasname": 252,
+    "concept:organizationalsoknownas": 254,
+    "concept:organizationdissolvedatdate": 256,
+    "concept:organizationheadquarteredincity": 258,
+    "concept:organizationheadquarteredincountry": 260,
+    "concept:organizationheadquarteredinstateorprovince": 262,
+    "concept:organizationhiredperson": 264,
+    "concept:organizationterminatedperson": 266,
+    "concept:parentofperson": 268,
+    "concept:parkincity": 270,
+    "concept:personalsoknownas": 272,
+    "concept:personbelongstoorganization": 274,
+    "concept:personbornincity": 276,
+    "concept:personborninlocation": 278,
+    "concept:personchargedwithcrime": 280,
+    "concept:persondiedatage": 282,
+    "concept:persondiedincountry": 284,
+    "concept:persongraduatedfromuniversity": 286,
+    "concept:persongraduatedschool": 288,
+    "concept:personhascitizenship": 290,
+    "concept:personhasjobposition": 292,
+    "concept:personhasresidenceingeopoliticallocation": 294,
+    "concept:personleadsgeopoliticalorganization": 296,
+    "concept:personleadsorganization": 298,
+    "concept:personmovedtostateorprovince": 300,
+    "concept:plantgrowinginplant": 302,
+    "concept:plantincludeplant": 304,
+    "concept:plantrepresentemotion": 306,
+    "concept:politicianholdsoffice": 308,
+    "concept:politicianrepresentslocation": 310,
+    "concept:politicianusendorsedbypoliticianus": 312,
+    "concept:politicianusholdsoffice": 314,
+    "concept:politicianusmemberofpoliticalgroup": 316,
+    "concept:producesproduct": 318,
+    "concept:professionistypeofprofession": 320,
+    "concept:professionusestool": 322,
+    "concept:proxyfor": 324,
+    "concept:radiostationincity": 326,
+    "concept:riveremptiesintoriver": 328,
+    "concept:specializationof": 330,
+    "concept:sportfansincountry": 332,
+    "concept:sporthassportsteamposition": 334,
+    "concept:sportschoolincountry": 336,
+    "concept:sportsgamesport": 338,
+    "concept:sportsgameteam": 340,
+    "concept:sportsgamewinner": 342,
+    "concept:sportusesequipment": 344,
+    "concept:sportusesstadium": 346,
+    "concept:stadiumlocatedincity": 348,
+    "concept:statehascapital": 350,
+    "concept:statelocatedincountry": 352,
+    "concept:statelocatedingeopoliticallocation": 354,
+    "concept:stateorprovinceisborderedbystateorprovince": 356,
+    "concept:subpartof": 358,
+    "concept:subpartoforganization": 360,
+    "concept:synonymfor": 362,
+    "concept:teamalsoknownas": 364,
+    "concept:teamhomestadium": 366,
+    "concept:teamplaysagainstteam": 368,
+    "concept:teamplaysincity": 370,
+    "concept:teamplaysinleague": 372,
+    "concept:teamplayssport": 374,
+    "concept:teamwontrophy": 376,
+    "concept:televisionstationaffiliatedwith": 378,
+    "concept:televisionstationincity": 380,
+    "concept:thinghascolor": 382,
+    "concept:thinghasshape": 384,
+    "concept:topmemberoforganization": 386,
+    "concept:touristattractionsuchastouristattraction": 388,
+    "concept:transportationincity": 390,
+    "concept:visualartistartform": 392,
+    "concept:weaponmadeincountry": 394,
+    "concept:weaponssuchasweapons": 396,
+    "concept:worksfor": 398
+  },
+  "id_to_relation": {
+    "0": "concept:academicfieldconcernssubject",
+    "2": "concept:academicfieldsuchasacademicfield",
+    "4": "concept:academicprogramatuniversity",
+    "6": "concept:acquired",
+    "8": "concept:actorstarredinmovie",
+    "10": "concept:agentactsinlocation",
+    "12": "concept:agentbelongstoorganization",
+    "14": "concept:agentcollaborateswithagent",
+    "16": "concept:agentcompeteswithagent",
+    "18": "concept:agentcontributedtocreativework",
+    "20": "concept:agentcontrols",
+    "22": "concept:agentcreated",
+    "24": "concept:agentinvolvedwithitem",
+    "26": "concept:agentparticipatedinevent",
+    "28": "concept:agriculturalproductcamefromcountry",
+    "30": "concept:agriculturalproductcomingfromvertebrate",
+    "32": "concept:agriculturalproductcontainchemical",
+    "34": "concept:agriculturalproductcookedwithagriculturalproduct",
+    "36": "concept:agriculturalproductcutintogeometricshape",
+    "38": "concept:agriculturalproductgrowinginstateorprovince",
+    "40": "concept:agriculturalproductgrowninlandscapefeatures",
+    "42": "concept:agriculturalproductincludingagriculturalproduct",
+    "44": "concept:agriculturalproducttoattractinsect",
+    "46": "concept:airportincity",
+    "48": "concept:animaldevelopdisease",
+    "50": "concept:animaleatfood",
+    "52": "concept:animaleatvegetable",
+    "54": "concept:animalistypeofanimal",
+    "56": "concept:animalpreyson",
+    "58": "concept:animalsuchasfish",
+    "60": "concept:animalsuchasinsect",
+    "62": "concept:animalsuchasinvertebrate",
+    "64": "concept:animalthatfeedoninsect",
+    "66": "concept:arterycalledartery",
+    "68": "concept:arthropodandotherarthropod",
+    "70": "concept:arthropodcalledarthropod",
+    "72": "concept:atdate",
+    "74": "concept:athletebeatathlete",
+    "76": "concept:athleteflyouttosportsteamposition",
+    "78": "concept:athletehomestadium",
+    "80": "concept:athleteinjuredhisbodypart",
+    "82": "concept:athleteledsportsteam",
+    "84": "concept:athleteplaysforteam",
+    "86": "concept:athleteplaysinleague",
+    "88": "concept:athleteplayssport",
+    "90": "concept:athleteplayssportsteamposition",
+    "92": "concept:athletewinsawardtrophytournament",
+    "94": "concept:atlocation",
+    "96": "concept:attractionofcity",
+    "98": "concept:automakerproducesmodel",
+    "100": "concept:automobilemakercardealersinstateorprovince",
+    "102": "concept:automobilemakerdealersincity",
+    "104": "concept:automobilemakerdealersincountry",
+    "106": "concept:awardtrophytournamentisthechampionshipgameofthenationalsport",
+    "108": "concept:bacteriaisthecausativeagentofphysiologicalcondition",
+    "110": "concept:bakedgoodservedwithbeverage",
+    "112": "concept:bankbankincountry",
+    "114": "concept:bankboughtbank",
+    "116": "concept:beveragecontainsprotein",
+    "118": "concept:beveragemadefrombeverage",
+    "120": "concept:bodypartcontainsbodypart",
+    "122": "concept:bookwriter",
+    "124": "concept:buildingfeaturemadefrombuildingmaterial",
+    "126": "concept:buildinglocatedincity",
+    "128": "concept:ceoof",
+    "130": "concept:chemicalistypeofchemical",
+    "132": "concept:cityalsoknownas",
+    "134": "concept:citycapitalofcountry",
+    "136": "concept:cityliesonriver",
+    "138": "concept:citylocatedincountry",
+    "140": "concept:citylocatedingeopoliticallocation",
+    "142": "concept:citylocatedinstate",
+    "144": "concept:clothingmadefromplant",
+    "146": "concept:clothingtogowithclothing",
+    "148": "concept:coachesinleague",
+    "150": "concept:coachesteam",
+    "152": "concept:coachwontrophy",
+    "154": "concept:companyalsoknownas",
+    "156": "concept:companyeconomicsector",
+    "158": "concept:competeswith",
+    "160": "concept:conceptprerequisiteof",
+    "162": "concept:countryalsoknownas",
+    "164": "concept:countrycurrency",
+    "166": "concept:countrylocatedingeopoliticallocation",
+    "168": "concept:directordirectedmovie",
+    "170": "concept:drughassideeffect",
+    "172": "concept:drugpossiblytreatsphysiologicalcondition",
+    "174": "concept:drugworkedonbyagent",
+    "176": "concept:emotionassociatedwithdisease",
+    "178": "concept:fatherofperson",
+    "180": "concept:fishservedwithfood",
+    "182": "concept:foodcancausedisease",
+    "184": "concept:fooddecreasestheriskofdisease",
+    "186": "concept:furniturefoundinroom",
+    "188": "concept:hashusband",
+    "190": "concept:hasofficeincity",
+    "192": "concept:hasofficeincountry",
+    "194": "concept:hassibling",
+    "196": "concept:hasspouse",
+    "198": "concept:haswife",
+    "200": "concept:headquarteredin",
+    "202": "concept:hobbiessuchashobbies",
+    "204": "concept:hotelincity",
+    "206": "concept:invertebratefeedonfood",
+    "208": "concept:ismultipleof",
+    "210": "concept:istallerthan",
+    "212": "concept:itemfoundinroom",
+    "214": "concept:journalistwritesforpublication",
+    "216": "concept:lakeinstate",
+    "218": "concept:languageofcountry",
+    "220": "concept:languageofuniversity",
+    "222": "concept:latitudelongitude",
+    "224": "concept:leaguestadiums",
+    "226": "concept:locationlocatedwithinlocation",
+    "228": "concept:mammalsuchasmammal",
+    "230": "concept:motherofperson",
+    "232": "concept:mountaininstate",
+    "234": "concept:museumincity",
+    "236": "concept:musicartistgenre",
+    "238": "concept:musicgenressuchasmusicgenres",
+    "240": "concept:musicianinmusicartist",
+    "242": "concept:musicianplaysinstrument",
+    "244": "concept:mutualproxyfor",
+    "246": "concept:newspaperincity",
+    "248": "concept:objectfoundinscene",
+    "250": "concept:objectpartofobject",
+    "252": "concept:organizationacronymhasname",
+    "254": "concept:organizationalsoknownas",
+    "256": "concept:organizationdissolvedatdate",
+    "258": "concept:organizationheadquarteredincity",
+    "260": "concept:organizationheadquarteredincountry",
+    "262": "concept:organizationheadquarteredinstateorprovince",
+    "264": "concept:organizationhiredperson",
+    "266": "concept:organizationterminatedperson",
+    "268": "concept:parentofperson",
+    "270": "concept:parkincity",
+    "272": "concept:personalsoknownas",
+    "274": "concept:personbelongstoorganization",
+    "276": "concept:personbornincity",
+    "278": "concept:personborninlocation",
+    "280": "concept:personchargedwithcrime",
+    "282": "concept:persondiedatage",
+    "284": "concept:persondiedincountry",
+    "286": "concept:persongraduatedfromuniversity",
+    "288": "concept:persongraduatedschool",
+    "290": "concept:personhascitizenship",
+    "292": "concept:personhasjobposition",
+    "294": "concept:personhasresidenceingeopoliticallocation",
+    "296": "concept:personleadsgeopoliticalorganization",
+    "298": "concept:personleadsorganization",
+    "300": "concept:personmovedtostateorprovince",
+    "302": "concept:plantgrowinginplant",
+    "304": "concept:plantincludeplant",
+    "306": "concept:plantrepresentemotion",
+    "308": "concept:politicianholdsoffice",
+    "310": "concept:politicianrepresentslocation",
+    "312": "concept:politicianusendorsedbypoliticianus",
+    "314": "concept:politicianusholdsoffice",
+    "316": "concept:politicianusmemberofpoliticalgroup",
+    "318": "concept:producesproduct",
+    "320": "concept:professionistypeofprofession",
+    "322": "concept:professionusestool",
+    "324": "concept:proxyfor",
+    "326": "concept:radiostationincity",
+    "328": "concept:riveremptiesintoriver",
+    "330": "concept:specializationof",
+    "332": "concept:sportfansincountry",
+    "334": "concept:sporthassportsteamposition",
+    "336": "concept:sportschoolincountry",
+    "338": "concept:sportsgamesport",
+    "340": "concept:sportsgameteam",
+    "342": "concept:sportsgamewinner",
+    "344": "concept:sportusesequipment",
+    "346": "concept:sportusesstadium",
+    "348": "concept:stadiumlocatedincity",
+    "350": "concept:statehascapital",
+    "352": "concept:statelocatedincountry",
+    "354": "concept:statelocatedingeopoliticallocation",
+    "356": "concept:stateorprovinceisborderedbystateorprovince",
+    "358": "concept:subpartof",
+    "360": "concept:subpartoforganization",
+    "362": "concept:synonymfor",
+    "364": "concept:teamalsoknownas",
+    "366": "concept:teamhomestadium",
+    "368": "concept:teamplaysagainstteam",
+    "370": "concept:teamplaysincity",
+    "372": "concept:teamplaysinleague",
+    "374": "concept:teamplayssport",
+    "376": "concept:teamwontrophy",
+    "378": "concept:televisionstationaffiliatedwith",
+    "380": "concept:televisionstationincity",
+    "382": "concept:thinghascolor",
+    "384": "concept:thinghasshape",
+    "386": "concept:topmemberoforganization",
+    "388": "concept:touristattractionsuchastouristattraction",
+    "390": "concept:transportationincity",
+    "392": "concept:visualartistartform",
+    "394": "concept:weaponmadeincountry",
+    "396": "concept:weaponssuchasweapons",
+    "398": "concept:worksfor"
+  },
+  "relation_to_types": {
+    "concept:academicprogramatuniversity": [
+      "academicfield",
+      "university"
+    ],
+    "concept:proxyfor": [
+      "city",
+      "Entity"
+    ],
+    "concept:atdate": [
+      "Entity",
+      "Entity"
+    ],
+    "concept:subpartof": [
+      "Entity",
+      "Entity"
+    ],
+    "concept:academicfieldsuchasacademicfield": [
+      "academicfield",
+      "academicfield"
+    ],
+    "concept:academicfieldconcernssubject": [
+      "academicfield",
+      "Entity"
+    ],
+    "concept:synonymfor": [
+      "Entity",
+      "Entity"
+    ],
+    "concept:mutualproxyfor": [
+      "Entity",
+      "Entity"
+    ],
+    "concept:ismultipleof": [
+      "Entity",
+      "mammal"
+    ],
+    "concept:istallerthan": [
+      "Entity",
+      "Entity"
+    ],
+    "concept:latitudelongitude": [
+      "Entity",
+      "Entity"
+    ],
+    "concept:atlocation": [
+      "city",
+      "city"
+    ],
+    "concept:actorstarredinmovie": [
+      "actor",
+      "movie"
+    ],
+    "concept:hasspouse": [
+      "person",
+      "person"
+    ],
+    "concept:agentinvolvedwithitem": [
+      "Entity",
+      "Entity"
+    ],
+    "concept:agentparticipatedinevent": [
+      "Entity",
+      "sportsgame"
+    ],
+    "concept:personchargedwithcrime": [
+      "person",
+      "crimeorcharge"
+    ],
+    "concept:personhasresidenceingeopoliticallocation": [
+      "person",
+      "city"
+    ],
+    "concept:agentcreated": [
+      "writer",
+      "book"
+    ],
+    "concept:haswife": [
+      "person",
+      "female"
+    ],
+    "concept:persondiedincountry": [
+      "person",
+      "country"
+    ],
+    "concept:persondiedatage": [
+      "person",
+      "Entity"
+    ],
+    "concept:personbelongstoorganization": [
+      "person",
+      "sportsteam"
+    ],
+    "concept:personhasjobposition": [
+      "person",
+      "jobposition"
+    ],
+    "concept:personalsoknownas": [
+      "person",
+      "person"
+    ],
+    "concept:worksfor": [
+      "journalist",
+      "company"
+    ],
+    "concept:agentcontributedtocreativework": [
+      "Entity",
+      "book"
+    ],
+    "concept:personleadsorganization": [
+      "ceo",
+      "company"
+    ],
+    "concept:agentcompeteswithagent": [
+      "Entity",
+      "Entity"
+    ],
+    "concept:agentactsinlocation": [
+      "Entity",
+      "city"
+    ],
+    "concept:agentcontrols": [
+      "Entity",
+      "televisionstation"
+    ],
+    "concept:topmemberoforganization": [
+      "ceo",
+      "company"
+    ],
+    "concept:hashusband": [
+      "person",
+      "male"
+    ],
+    "concept:personleadsgeopoliticalorganization": [
+      "person",
+      "city"
+    ],
+    "concept:personbornincity": [
+      "person",
+      "city"
+    ],
+    "concept:personborninlocation": [
+      "person",
+      "city"
+    ],
+    "concept:parentofperson": [
+      "person",
+      "person"
+    ],
+    "concept:agentcollaborateswithagent": [
+      "sportsteam",
+      "Entity"
+    ],
+    "concept:personhascitizenship": [
+      "person",
+      "country"
+    ],
+    "concept:persongraduatedfromuniversity": [
+      "person",
+      "university"
+    ],
+    "concept:persongraduatedschool": [
+      "person",
+      "university"
+    ],
+    "concept:organizationalsoknownas": [
+      "university",
+      "Entity"
+    ],
+    "concept:organizationterminatedperson": [
+      "company",
+      "ceo"
+    ],
+    "concept:objectfoundinscene": [
+      "visualizableobject",
+      "visualizablescene"
+    ],
+    "concept:objectpartofobject": [
+      "visualizableobject",
+      "visualizableobject"
+    ],
+    "concept:agriculturalproductgrowninlandscapefeatures": [
+      "agriculturalproduct",
+      "landscapefeatures"
+    ],
+    "concept:foodcancausedisease": [
+      "food",
+      "disease"
+    ],
+    "concept:agriculturalproductincludingagriculturalproduct": [
+      "agriculturalproduct",
+      "agriculturalproduct"
+    ],
+    "concept:agriculturalproductcontainchemical": [
+      "agriculturalproduct",
+      "chemical"
+    ],
+    "concept:fooddecreasestheriskofdisease": [
+      "food",
+      "disease"
+    ],
+    "concept:agriculturalproductcookedwithagriculturalproduct": [
+      "agriculturalproduct",
+      "agriculturalproduct"
+    ],
+    "concept:agriculturalproductcutintogeometricshape": [
+      "agriculturalproduct",
+      "geometricshape"
+    ],
+    "concept:agriculturalproducttoattractinsect": [
+      "agriculturalproduct",
+      "insect"
+    ],
+    "concept:thinghascolor": [
+      "color",
+      "color"
+    ],
+    "concept:agriculturalproductcomingfromvertebrate": [
+      "Entity",
+      "bird"
+    ],
+    "concept:agriculturalproductcamefromcountry": [
+      "agriculturalproduct",
+      "country"
+    ],
+    "concept:animalistypeofanimal": [
+      "mammal",
+      "mammal"
+    ],
+    "concept:mammalsuchasmammal": [
+      "mammal",
+      "mammal"
+    ],
+    "concept:animaleatvegetable": [
+      "Entity",
+      "vegetable"
+    ],
+    "concept:specializationof": [
+      "Entity",
+      "Entity"
+    ],
+    "concept:beveragemadefrombeverage": [
+      "beverage",
+      "wine"
+    ],
+    "concept:beveragecontainsprotein": [
+      "beverage",
+      "protein"
+    ],
+    "concept:agriculturalproductgrowinginstateorprovince": [
+      "agriculturalproduct",
+      "stateorprovince"
+    ],
+    "concept:arthropodcalledarthropod": [
+      "insect",
+      "insect"
+    ],
+    "concept:animaleatfood": [
+      "Entity",
+      "food"
+    ],
+    "concept:animalpreyson": [
+      "mammal",
+      "mammal"
+    ],
+    "concept:animaldevelopdisease": [
+      "Entity",
+      "disease"
+    ],
+    "concept:thinghasshape": [
+      "geometricshape",
+      "geometricshape"
+    ],
+    "concept:animalsuchasfish": [
+      "animal",
+      "fish"
+    ],
+    "concept:airportincity": [
+      "airport",
+      "city"
+    ],
+    "concept:buildinglocatedincity": [
+      "building",
+      "city"
+    ],
+    "concept:touristattractionsuchastouristattraction": [
+      "aquarium",
+      "attraction"
+    ],
+    "concept:attractionofcity": [
+      "attraction",
+      "city"
+    ],
+    "concept:locationlocatedwithinlocation": [
+      "city",
+      "Entity"
+    ],
+    "concept:transportationincity": [
+      "transportation",
+      "city"
+    ],
+    "concept:animalthatfeedoninsect": [
+      "insect",
+      "insect"
+    ],
+    "concept:animalsuchasinvertebrate": [
+      "insect",
+      "invertebrate"
+    ],
+    "concept:animalsuchasinsect": [
+      "insect",
+      "insect"
+    ],
+    "concept:invertebratefeedonfood": [
+      "insect",
+      "Entity"
+    ],
+    "concept:arthropodandotherarthropod": [
+      "insect",
+      "insect"
+    ],
+    "concept:drugpossiblytreatsphysiologicalcondition": [
+      "drug",
+      "disease"
+    ],
+    "concept:hassibling": [
+      "person",
+      "person"
+    ],
+    "concept:visualartistartform": [
+      "visualartist",
+      "visualartform"
+    ],
+    "concept:arterycalledartery": [
+      "artery",
+      "artery"
+    ],
+    "concept:bodypartcontainsbodypart": [
+      "bodypart",
+      "bodypart"
+    ],
+    "concept:politicianrepresentslocation": [
+      "politicianus",
+      "stateorprovince"
+    ],
+    "concept:politicianusmemberofpoliticalgroup": [
+      "politicianus",
+      "governmentorganization"
+    ],
+    "concept:politicianusendorsedbypoliticianus": [
+      "politicianus",
+      "politicianus"
+    ],
+    "concept:politicianusholdsoffice": [
+      "politicianus",
+      "politicaloffice"
+    ],
+    "concept:politicianholdsoffice": [
+      "politicianus",
+      "politicaloffice"
+    ],
+    "concept:personmovedtostateorprovince": [
+      "person",
+      "stateorprovince"
+    ],
+    "concept:athleteplayssport": [
+      "athlete",
+      "sport"
+    ],
+    "concept:coachwontrophy": [
+      "coach",
+      "awardtrophytournament"
+    ],
+    "concept:athleteflyouttosportsteamposition": [
+      "athlete",
+      "sportsteamposition"
+    ],
+    "concept:athleteinjuredhisbodypart": [
+      "athlete",
+      "bone"
+    ],
+    "concept:athleteplayssportsteamposition": [
+      "athlete",
+      "sportsteamposition"
+    ],
+    "concept:athleteplaysinleague": [
+      "athlete",
+      "sportsleague"
+    ],
+    "concept:athleteplaysforteam": [
+      "athlete",
+      "sportsteam"
+    ],
+    "concept:athleteledsportsteam": [
+      "athlete",
+      "sportsteam"
+    ],
+    "concept:athletehomestadium": [
+      "athlete",
+      "stadiumoreventvenue"
+    ],
+    "concept:athletewinsawardtrophytournament": [
+      "athlete",
+      "awardtrophytournament"
+    ],
+    "concept:athletebeatathlete": [
+      "athlete",
+      "athlete"
+    ],
+    "concept:coachesinleague": [
+      "coach",
+      "sportsleague"
+    ],
+    "concept:agentbelongstoorganization": [
+      "televisionstation",
+      "company"
+    ],
+    "concept:fatherofperson": [
+      "male",
+      "male"
+    ],
+    "concept:coachesteam": [
+      "coach",
+      "sportsteam"
+    ],
+    "concept:motherofperson": [
+      "female",
+      "person"
+    ],
+    "concept:riveremptiesintoriver": [
+      "river",
+      "river"
+    ],
+    "concept:hotelincity": [
+      "hotel",
+      "city"
+    ],
+    "concept:automobilemakerdealersincountry": [
+      "automobilemaker",
+      "country"
+    ],
+    "concept:automakerproducesmodel": [
+      "automobilemaker",
+      "automobilemodel"
+    ],
+    "concept:automobilemakerdealersincity": [
+      "automobilemaker",
+      "city"
+    ],
+    "concept:automobilemakercardealersinstateorprovince": [
+      "automobilemaker",
+      "stateorprovince"
+    ],
+    "concept:hasofficeincountry": [
+      "company",
+      "country"
+    ],
+    "concept:companyeconomicsector": [
+      "company",
+      "economicsector"
+    ],
+    "concept:subpartoforganization": [
+      "sportsteam",
+      "Entity"
+    ],
+    "concept:acquired": [
+      "company",
+      "company"
+    ],
+    "concept:producesproduct": [
+      "automobilemaker",
+      "automobilemodel"
+    ],
+    "concept:competeswith": [
+      "company",
+      "company"
+    ],
+    "concept:headquarteredin": [
+      "company",
+      "city"
+    ],
+    "concept:companyalsoknownas": [
+      "company",
+      "company"
+    ],
+    "concept:organizationheadquarteredinstateorprovince": [
+      "sportsteam",
+      "stateorprovince"
+    ],
+    "concept:organizationhiredperson": [
+      "sportsteam",
+      "coach"
+    ],
+    "concept:hasofficeincity": [
+      "company",
+      "city"
+    ],
+    "concept:organizationheadquarteredincountry": [
+      "governmentorganization",
+      "country"
+    ],
+    "concept:organizationdissolvedatdate": [
+      "Entity",
+      "date"
+    ],
+    "concept:organizationheadquarteredincity": [
+      "company",
+      "city"
+    ],
+    "concept:awardtrophytournamentisthechampionshipgameofthenationalsport": [
+      "awardtrophytournament",
+      "sport"
+    ],
+    "concept:bacteriaisthecausativeagentofphysiologicalcondition": [
+      "bacteria",
+      "disease"
+    ],
+    "concept:drughassideeffect": [
+      "drug",
+      "disease"
+    ],
+    "concept:bakedgoodservedwithbeverage": [
+      "bakedgood",
+      "beverage"
+    ],
+    "concept:organizationacronymhasname": [
+      "governmentorganization",
+      "governmentorganization"
+    ],
+    "concept:bankbankincountry": [
+      "bank",
+      "country"
+    ],
+    "concept:bankboughtbank": [
+      "bank",
+      "bank"
+    ],
+    "concept:itemfoundinroom": [
+      "bathroomitem",
+      "room"
+    ],
+    "concept:parkincity": [
+      "park",
+      "city"
+    ],
+    "concept:bookwriter": [
+      "book",
+      "writer"
+    ],
+    "concept:stadiumlocatedincity": [
+      "stadiumoreventvenue",
+      "city"
+    ],
+    "concept:buildingfeaturemadefrombuildingmaterial": [
+      "buildingfeature",
+      "buildingmaterial"
+    ],
+    "concept:musicianinmusicartist": [
+      "musician",
+      "musicartist"
+    ],
+    "concept:ceoof": [
+      "ceo",
+      "company"
+    ],
+    "concept:chemicalistypeofchemical": [
+      "chemical",
+      "chemical"
+    ],
+    "concept:drugworkedonbyagent": [
+      "drug",
+      "biotechcompany"
+    ],
+    "concept:citylocatedincountry": [
+      "city",
+      "country"
+    ],
+    "concept:citylocatedingeopoliticallocation": [
+      "city",
+      "country"
+    ],
+    "concept:cityliesonriver": [
+      "city",
+      "river"
+    ],
+    "concept:cityalsoknownas": [
+      "city",
+      "city"
+    ],
+    "concept:citylocatedinstate": [
+      "city",
+      "stateorprovince"
+    ],
+    "concept:citycapitalofcountry": [
+      "city",
+      "country"
+    ],
+    "concept:clothingmadefromplant": [
+      "clothing",
+      "plant"
+    ],
+    "concept:clothingtogowithclothing": [
+      "clothing",
+      "clothing"
+    ],
+    "concept:newspaperincity": [
+      "newspaper",
+      "city"
+    ],
+    "concept:countryalsoknownas": [
+      "country",
+      "country"
+    ],
+    "concept:countrylocatedingeopoliticallocation": [
+      "country",
+      "country"
+    ],
+    "concept:countrycurrency": [
+      "country",
+      "currency"
+    ],
+    "concept:teamplaysinleague": [
+      "sportsteam",
+      "sportsleague"
+    ],
+    "concept:teamalsoknownas": [
+      "sportsteam",
+      "sportsteam"
+    ],
+    "concept:directordirectedmovie": [
+      "director",
+      "movie"
+    ],
+    "concept:emotionassociatedwithdisease": [
+      "emotion",
+      "disease"
+    ],
+    "concept:fishservedwithfood": [
+      "fish",
+      "condiment"
+    ],
+    "concept:plantincludeplant": [
+      "plant",
+      "plant"
+    ],
+    "concept:plantgrowinginplant": [
+      "plant",
+      "plant"
+    ],
+    "concept:plantrepresentemotion": [
+      "plant",
+      "emotion"
+    ],
+    "concept:furniturefoundinroom": [
+      "furniture",
+      "room"
+    ],
+    "concept:teamplayssport": [
+      "sportsteam",
+      "sport"
+    ],
+    "concept:teamplaysagainstteam": [
+      "sportsteam",
+      "sportsteam"
+    ],
+    "concept:hobbiessuchashobbies": [
+      "hobby",
+      "hobby"
+    ],
+    "concept:sportfansincountry": [
+      "sport",
+      "country"
+    ],
+    "concept:sportschoolincountry": [
+      "sport",
+      "country"
+    ],
+    "concept:sportusesequipment": [
+      "sport",
+      "sportsequipment"
+    ],
+    "concept:professionistypeofprofession": [
+      "profession",
+      "profession"
+    ],
+    "concept:professionusestool": [
+      "profession",
+      "tool"
+    ],
+    "concept:journalistwritesforpublication": [
+      "journalist",
+      "newspaper"
+    ],
+    "concept:lakeinstate": [
+      "lake",
+      "stateorprovince"
+    ],
+    "concept:languageofcountry": [
+      "language",
+      "country"
+    ],
+    "concept:languageofuniversity": [
+      "language",
+      "university"
+    ],
+    "concept:musicianplaysinstrument": [
+      "musician",
+      "musicinstrument"
+    ],
+    "concept:mountaininstate": [
+      "mountain",
+      "stateorprovince"
+    ],
+    "concept:museumincity": [
+      "museum",
+      "city"
+    ],
+    "concept:musicartistgenre": [
+      "musicartist",
+      "musicgenre"
+    ],
+    "concept:musicgenressuchasmusicgenres": [
+      "musicgenre",
+      "musicgenre"
+    ],
+    "concept:radiostationincity": [
+      "radiostation",
+      "city"
+    ],
+    "concept:conceptprerequisiteof": [
+      "scientificterm",
+      "scientificterm"
+    ],
+    "concept:sporthassportsteamposition": [
+      "sport",
+      "sportsteamposition"
+    ],
+    "concept:sportusesstadium": [
+      "sport",
+      "stadiumoreventvenue"
+    ],
+    "concept:sportsgamesport": [
+      "sportsgame",
+      "sport"
+    ],
+    "concept:sportsgameteam": [
+      "sportsgame",
+      "sportsteam"
+    ],
+    "concept:sportsgamewinner": [
+      "sportsgame",
+      "sportsteam"
+    ],
+    "concept:leaguestadiums": [
+      "sportsleague",
+      "stadiumoreventvenue"
+    ],
+    "concept:teamplaysincity": [
+      "sportsteam",
+      "city"
+    ],
+    "concept:teamwontrophy": [
+      "sportsteam",
+      "awardtrophytournament"
+    ],
+    "concept:teamhomestadium": [
+      "sportsteam",
+      "stadiumoreventvenue"
+    ],
+    "concept:statelocatedincountry": [
+      "stateorprovince",
+      "country"
+    ],
+    "concept:statehascapital": [
+      "stateorprovince",
+      "city"
+    ],
+    "concept:statelocatedingeopoliticallocation": [
+      "stateorprovince",
+      "country"
+    ],
+    "concept:stateorprovinceisborderedbystateorprovince": [
+      "stateorprovince",
+      "stateorprovince"
+    ],
+    "concept:televisionstationincity": [
+      "televisionstation",
+      "city"
+    ],
+    "concept:televisionstationaffiliatedwith": [
+      "televisionstation",
+      "televisionnetwork"
+    ],
+    "concept:weaponssuchasweapons": [
+      "weapon",
+      "weapon"
+    ],
+    "concept:weaponmadeincountry": [
+      "weapon",
+      "country"
+    ]
+  },
+  "relation_schema": {
+    "concept:academicprogramatuniversity": {
+      "domain": "academicfield",
+      "range": "university"
+    },
+    "concept:proxyfor": {
+      "domain": "city",
+      "range": "Entity"
+    },
+    "concept:atdate": {
+      "domain": "Entity",
+      "range": "Entity"
+    },
+    "concept:subpartof": {
+      "domain": "Entity",
+      "range": "Entity"
+    },
+    "concept:academicfieldsuchasacademicfield": {
+      "domain": "academicfield",
+      "range": "academicfield"
+    },
+    "concept:academicfieldconcernssubject": {
+      "domain": "academicfield",
+      "range": "Entity"
+    },
+    "concept:synonymfor": {
+      "domain": "Entity",
+      "range": "Entity"
+    },
+    "concept:mutualproxyfor": {
+      "domain": "Entity",
+      "range": "Entity"
+    },
+    "concept:ismultipleof": {
+      "domain": "Entity",
+      "range": "mammal"
+    },
+    "concept:istallerthan": {
+      "domain": "Entity",
+      "range": "Entity"
+    },
+    "concept:latitudelongitude": {
+      "domain": "Entity",
+      "range": "Entity"
+    },
+    "concept:atlocation": {
+      "domain": "city",
+      "range": "city"
+    },
+    "concept:actorstarredinmovie": {
+      "domain": "actor",
+      "range": "movie"
+    },
+    "concept:hasspouse": {
+      "domain": "person",
+      "range": "person"
+    },
+    "concept:agentinvolvedwithitem": {
+      "domain": "Entity",
+      "range": "Entity"
+    },
+    "concept:agentparticipatedinevent": {
+      "domain": "Entity",
+      "range": "sportsgame"
+    },
+    "concept:personchargedwithcrime": {
+      "domain": "person",
+      "range": "crimeorcharge"
+    },
+    "concept:personhasresidenceingeopoliticallocation": {
+      "domain": "person",
+      "range": "city"
+    },
+    "concept:agentcreated": {
+      "domain": "writer",
+      "range": "book"
+    },
+    "concept:haswife": {
+      "domain": "person",
+      "range": "female"
+    },
+    "concept:persondiedincountry": {
+      "domain": "person",
+      "range": "country"
+    },
+    "concept:persondiedatage": {
+      "domain": "person",
+      "range": "Entity"
+    },
+    "concept:personbelongstoorganization": {
+      "domain": "person",
+      "range": "sportsteam"
+    },
+    "concept:personhasjobposition": {
+      "domain": "person",
+      "range": "jobposition"
+    },
+    "concept:personalsoknownas": {
+      "domain": "person",
+      "range": "person"
+    },
+    "concept:worksfor": {
+      "domain": "journalist",
+      "range": "company"
+    },
+    "concept:agentcontributedtocreativework": {
+      "domain": "Entity",
+      "range": "book"
+    },
+    "concept:personleadsorganization": {
+      "domain": "ceo",
+      "range": "company"
+    },
+    "concept:agentcompeteswithagent": {
+      "domain": "Entity",
+      "range": "Entity"
+    },
+    "concept:agentactsinlocation": {
+      "domain": "Entity",
+      "range": "city"
+    },
+    "concept:agentcontrols": {
+      "domain": "Entity",
+      "range": "televisionstation"
+    },
+    "concept:topmemberoforganization": {
+      "domain": "ceo",
+      "range": "company"
+    },
+    "concept:hashusband": {
+      "domain": "person",
+      "range": "male"
+    },
+    "concept:personleadsgeopoliticalorganization": {
+      "domain": "person",
+      "range": "city"
+    },
+    "concept:personbornincity": {
+      "domain": "person",
+      "range": "city"
+    },
+    "concept:personborninlocation": {
+      "domain": "person",
+      "range": "city"
+    },
+    "concept:parentofperson": {
+      "domain": "person",
+      "range": "person"
+    },
+    "concept:agentcollaborateswithagent": {
+      "domain": "sportsteam",
+      "range": "Entity"
+    },
+    "concept:personhascitizenship": {
+      "domain": "person",
+      "range": "country"
+    },
+    "concept:persongraduatedfromuniversity": {
+      "domain": "person",
+      "range": "university"
+    },
+    "concept:persongraduatedschool": {
+      "domain": "person",
+      "range": "university"
+    },
+    "concept:organizationalsoknownas": {
+      "domain": "university",
+      "range": "Entity"
+    },
+    "concept:organizationterminatedperson": {
+      "domain": "company",
+      "range": "ceo"
+    },
+    "concept:objectfoundinscene": {
+      "domain": "visualizableobject",
+      "range": "visualizablescene"
+    },
+    "concept:objectpartofobject": {
+      "domain": "visualizableobject",
+      "range": "visualizableobject"
+    },
+    "concept:agriculturalproductgrowninlandscapefeatures": {
+      "domain": "agriculturalproduct",
+      "range": "landscapefeatures"
+    },
+    "concept:foodcancausedisease": {
+      "domain": "food",
+      "range": "disease"
+    },
+    "concept:agriculturalproductincludingagriculturalproduct": {
+      "domain": "agriculturalproduct",
+      "range": "agriculturalproduct"
+    },
+    "concept:agriculturalproductcontainchemical": {
+      "domain": "agriculturalproduct",
+      "range": "chemical"
+    },
+    "concept:fooddecreasestheriskofdisease": {
+      "domain": "food",
+      "range": "disease"
+    },
+    "concept:agriculturalproductcookedwithagriculturalproduct": {
+      "domain": "agriculturalproduct",
+      "range": "agriculturalproduct"
+    },
+    "concept:agriculturalproductcutintogeometricshape": {
+      "domain": "agriculturalproduct",
+      "range": "geometricshape"
+    },
+    "concept:agriculturalproducttoattractinsect": {
+      "domain": "agriculturalproduct",
+      "range": "insect"
+    },
+    "concept:thinghascolor": {
+      "domain": "color",
+      "range": "color"
+    },
+    "concept:agriculturalproductcomingfromvertebrate": {
+      "domain": "Entity",
+      "range": "bird"
+    },
+    "concept:agriculturalproductcamefromcountry": {
+      "domain": "agriculturalproduct",
+      "range": "country"
+    },
+    "concept:animalistypeofanimal": {
+      "domain": "mammal",
+      "range": "mammal"
+    },
+    "concept:mammalsuchasmammal": {
+      "domain": "mammal",
+      "range": "mammal"
+    },
+    "concept:animaleatvegetable": {
+      "domain": "Entity",
+      "range": "vegetable"
+    },
+    "concept:specializationof": {
+      "domain": "Entity",
+      "range": "Entity"
+    },
+    "concept:beveragemadefrombeverage": {
+      "domain": "beverage",
+      "range": "wine"
+    },
+    "concept:beveragecontainsprotein": {
+      "domain": "beverage",
+      "range": "protein"
+    },
+    "concept:agriculturalproductgrowinginstateorprovince": {
+      "domain": "agriculturalproduct",
+      "range": "stateorprovince"
+    },
+    "concept:arthropodcalledarthropod": {
+      "domain": "insect",
+      "range": "insect"
+    },
+    "concept:animaleatfood": {
+      "domain": "Entity",
+      "range": "food"
+    },
+    "concept:animalpreyson": {
+      "domain": "mammal",
+      "range": "mammal"
+    },
+    "concept:animaldevelopdisease": {
+      "domain": "Entity",
+      "range": "disease"
+    },
+    "concept:thinghasshape": {
+      "domain": "geometricshape",
+      "range": "geometricshape"
+    },
+    "concept:animalsuchasfish": {
+      "domain": "animal",
+      "range": "fish"
+    },
+    "concept:airportincity": {
+      "domain": "airport",
+      "range": "city"
+    },
+    "concept:buildinglocatedincity": {
+      "domain": "building",
+      "range": "city"
+    },
+    "concept:touristattractionsuchastouristattraction": {
+      "domain": "aquarium",
+      "range": "attraction"
+    },
+    "concept:attractionofcity": {
+      "domain": "attraction",
+      "range": "city"
+    },
+    "concept:locationlocatedwithinlocation": {
+      "domain": "city",
+      "range": "Entity"
+    },
+    "concept:transportationincity": {
+      "domain": "transportation",
+      "range": "city"
+    },
+    "concept:animalthatfeedoninsect": {
+      "domain": "insect",
+      "range": "insect"
+    },
+    "concept:animalsuchasinvertebrate": {
+      "domain": "insect",
+      "range": "invertebrate"
+    },
+    "concept:animalsuchasinsect": {
+      "domain": "insect",
+      "range": "insect"
+    },
+    "concept:invertebratefeedonfood": {
+      "domain": "insect",
+      "range": "Entity"
+    },
+    "concept:arthropodandotherarthropod": {
+      "domain": "insect",
+      "range": "insect"
+    },
+    "concept:drugpossiblytreatsphysiologicalcondition": {
+      "domain": "drug",
+      "range": "disease"
+    },
+    "concept:hassibling": {
+      "domain": "person",
+      "range": "person"
+    },
+    "concept:visualartistartform": {
+      "domain": "visualartist",
+      "range": "visualartform"
+    },
+    "concept:arterycalledartery": {
+      "domain": "artery",
+      "range": "artery"
+    },
+    "concept:bodypartcontainsbodypart": {
+      "domain": "bodypart",
+      "range": "bodypart"
+    },
+    "concept:politicianrepresentslocation": {
+      "domain": "politicianus",
+      "range": "stateorprovince"
+    },
+    "concept:politicianusmemberofpoliticalgroup": {
+      "domain": "politicianus",
+      "range": "governmentorganization"
+    },
+    "concept:politicianusendorsedbypoliticianus": {
+      "domain": "politicianus",
+      "range": "politicianus"
+    },
+    "concept:politicianusholdsoffice": {
+      "domain": "politicianus",
+      "range": "politicaloffice"
+    },
+    "concept:politicianholdsoffice": {
+      "domain": "politicianus",
+      "range": "politicaloffice"
+    },
+    "concept:personmovedtostateorprovince": {
+      "domain": "person",
+      "range": "stateorprovince"
+    },
+    "concept:athleteplayssport": {
+      "domain": "athlete",
+      "range": "sport"
+    },
+    "concept:coachwontrophy": {
+      "domain": "coach",
+      "range": "awardtrophytournament"
+    },
+    "concept:athleteflyouttosportsteamposition": {
+      "domain": "athlete",
+      "range": "sportsteamposition"
+    },
+    "concept:athleteinjuredhisbodypart": {
+      "domain": "athlete",
+      "range": "bone"
+    },
+    "concept:athleteplayssportsteamposition": {
+      "domain": "athlete",
+      "range": "sportsteamposition"
+    },
+    "concept:athleteplaysinleague": {
+      "domain": "athlete",
+      "range": "sportsleague"
+    },
+    "concept:athleteplaysforteam": {
+      "domain": "athlete",
+      "range": "sportsteam"
+    },
+    "concept:athleteledsportsteam": {
+      "domain": "athlete",
+      "range": "sportsteam"
+    },
+    "concept:athletehomestadium": {
+      "domain": "athlete",
+      "range": "stadiumoreventvenue"
+    },
+    "concept:athletewinsawardtrophytournament": {
+      "domain": "athlete",
+      "range": "awardtrophytournament"
+    },
+    "concept:athletebeatathlete": {
+      "domain": "athlete",
+      "range": "athlete"
+    },
+    "concept:coachesinleague": {
+      "domain": "coach",
+      "range": "sportsleague"
+    },
+    "concept:agentbelongstoorganization": {
+      "domain": "televisionstation",
+      "range": "company"
+    },
+    "concept:fatherofperson": {
+      "domain": "male",
+      "range": "male"
+    },
+    "concept:coachesteam": {
+      "domain": "coach",
+      "range": "sportsteam"
+    },
+    "concept:motherofperson": {
+      "domain": "female",
+      "range": "person"
+    },
+    "concept:riveremptiesintoriver": {
+      "domain": "river",
+      "range": "river"
+    },
+    "concept:hotelincity": {
+      "domain": "hotel",
+      "range": "city"
+    },
+    "concept:automobilemakerdealersincountry": {
+      "domain": "automobilemaker",
+      "range": "country"
+    },
+    "concept:automakerproducesmodel": {
+      "domain": "automobilemaker",
+      "range": "automobilemodel"
+    },
+    "concept:automobilemakerdealersincity": {
+      "domain": "automobilemaker",
+      "range": "city"
+    },
+    "concept:automobilemakercardealersinstateorprovince": {
+      "domain": "automobilemaker",
+      "range": "stateorprovince"
+    },
+    "concept:hasofficeincountry": {
+      "domain": "company",
+      "range": "country"
+    },
+    "concept:companyeconomicsector": {
+      "domain": "company",
+      "range": "economicsector"
+    },
+    "concept:subpartoforganization": {
+      "domain": "sportsteam",
+      "range": "Entity"
+    },
+    "concept:acquired": {
+      "domain": "company",
+      "range": "company"
+    },
+    "concept:producesproduct": {
+      "domain": "automobilemaker",
+      "range": "automobilemodel"
+    },
+    "concept:competeswith": {
+      "domain": "company",
+      "range": "company"
+    },
+    "concept:headquarteredin": {
+      "domain": "company",
+      "range": "city"
+    },
+    "concept:companyalsoknownas": {
+      "domain": "company",
+      "range": "company"
+    },
+    "concept:organizationheadquarteredinstateorprovince": {
+      "domain": "sportsteam",
+      "range": "stateorprovince"
+    },
+    "concept:organizationhiredperson": {
+      "domain": "sportsteam",
+      "range": "coach"
+    },
+    "concept:hasofficeincity": {
+      "domain": "company",
+      "range": "city"
+    },
+    "concept:organizationheadquarteredincountry": {
+      "domain": "governmentorganization",
+      "range": "country"
+    },
+    "concept:organizationdissolvedatdate": {
+      "domain": "Entity",
+      "range": "date"
+    },
+    "concept:organizationheadquarteredincity": {
+      "domain": "company",
+      "range": "city"
+    },
+    "concept:awardtrophytournamentisthechampionshipgameofthenationalsport": {
+      "domain": "awardtrophytournament",
+      "range": "sport"
+    },
+    "concept:bacteriaisthecausativeagentofphysiologicalcondition": {
+      "domain": "bacteria",
+      "range": "disease"
+    },
+    "concept:drughassideeffect": {
+      "domain": "drug",
+      "range": "disease"
+    },
+    "concept:bakedgoodservedwithbeverage": {
+      "domain": "bakedgood",
+      "range": "beverage"
+    },
+    "concept:organizationacronymhasname": {
+      "domain": "governmentorganization",
+      "range": "governmentorganization"
+    },
+    "concept:bankbankincountry": {
+      "domain": "bank",
+      "range": "country"
+    },
+    "concept:bankboughtbank": {
+      "domain": "bank",
+      "range": "bank"
+    },
+    "concept:itemfoundinroom": {
+      "domain": "bathroomitem",
+      "range": "room"
+    },
+    "concept:parkincity": {
+      "domain": "park",
+      "range": "city"
+    },
+    "concept:bookwriter": {
+      "domain": "book",
+      "range": "writer"
+    },
+    "concept:stadiumlocatedincity": {
+      "domain": "stadiumoreventvenue",
+      "range": "city"
+    },
+    "concept:buildingfeaturemadefrombuildingmaterial": {
+      "domain": "buildingfeature",
+      "range": "buildingmaterial"
+    },
+    "concept:musicianinmusicartist": {
+      "domain": "musician",
+      "range": "musicartist"
+    },
+    "concept:ceoof": {
+      "domain": "ceo",
+      "range": "company"
+    },
+    "concept:chemicalistypeofchemical": {
+      "domain": "chemical",
+      "range": "chemical"
+    },
+    "concept:drugworkedonbyagent": {
+      "domain": "drug",
+      "range": "biotechcompany"
+    },
+    "concept:citylocatedincountry": {
+      "domain": "city",
+      "range": "country"
+    },
+    "concept:citylocatedingeopoliticallocation": {
+      "domain": "city",
+      "range": "country"
+    },
+    "concept:cityliesonriver": {
+      "domain": "city",
+      "range": "river"
+    },
+    "concept:cityalsoknownas": {
+      "domain": "city",
+      "range": "city"
+    },
+    "concept:citylocatedinstate": {
+      "domain": "city",
+      "range": "stateorprovince"
+    },
+    "concept:citycapitalofcountry": {
+      "domain": "city",
+      "range": "country"
+    },
+    "concept:clothingmadefromplant": {
+      "domain": "clothing",
+      "range": "plant"
+    },
+    "concept:clothingtogowithclothing": {
+      "domain": "clothing",
+      "range": "clothing"
+    },
+    "concept:newspaperincity": {
+      "domain": "newspaper",
+      "range": "city"
+    },
+    "concept:countryalsoknownas": {
+      "domain": "country",
+      "range": "country"
+    },
+    "concept:countrylocatedingeopoliticallocation": {
+      "domain": "country",
+      "range": "country"
+    },
+    "concept:countrycurrency": {
+      "domain": "country",
+      "range": "currency"
+    },
+    "concept:teamplaysinleague": {
+      "domain": "sportsteam",
+      "range": "sportsleague"
+    },
+    "concept:teamalsoknownas": {
+      "domain": "sportsteam",
+      "range": "sportsteam"
+    },
+    "concept:directordirectedmovie": {
+      "domain": "director",
+      "range": "movie"
+    },
+    "concept:emotionassociatedwithdisease": {
+      "domain": "emotion",
+      "range": "disease"
+    },
+    "concept:fishservedwithfood": {
+      "domain": "fish",
+      "range": "condiment"
+    },
+    "concept:plantincludeplant": {
+      "domain": "plant",
+      "range": "plant"
+    },
+    "concept:plantgrowinginplant": {
+      "domain": "plant",
+      "range": "plant"
+    },
+    "concept:plantrepresentemotion": {
+      "domain": "plant",
+      "range": "emotion"
+    },
+    "concept:furniturefoundinroom": {
+      "domain": "furniture",
+      "range": "room"
+    },
+    "concept:teamplayssport": {
+      "domain": "sportsteam",
+      "range": "sport"
+    },
+    "concept:teamplaysagainstteam": {
+      "domain": "sportsteam",
+      "range": "sportsteam"
+    },
+    "concept:hobbiessuchashobbies": {
+      "domain": "hobby",
+      "range": "hobby"
+    },
+    "concept:sportfansincountry": {
+      "domain": "sport",
+      "range": "country"
+    },
+    "concept:sportschoolincountry": {
+      "domain": "sport",
+      "range": "country"
+    },
+    "concept:sportusesequipment": {
+      "domain": "sport",
+      "range": "sportsequipment"
+    },
+    "concept:professionistypeofprofession": {
+      "domain": "profession",
+      "range": "profession"
+    },
+    "concept:professionusestool": {
+      "domain": "profession",
+      "range": "tool"
+    },
+    "concept:journalistwritesforpublication": {
+      "domain": "journalist",
+      "range": "newspaper"
+    },
+    "concept:lakeinstate": {
+      "domain": "lake",
+      "range": "stateorprovince"
+    },
+    "concept:languageofcountry": {
+      "domain": "language",
+      "range": "country"
+    },
+    "concept:languageofuniversity": {
+      "domain": "language",
+      "range": "university"
+    },
+    "concept:musicianplaysinstrument": {
+      "domain": "musician",
+      "range": "musicinstrument"
+    },
+    "concept:mountaininstate": {
+      "domain": "mountain",
+      "range": "stateorprovince"
+    },
+    "concept:museumincity": {
+      "domain": "museum",
+      "range": "city"
+    },
+    "concept:musicartistgenre": {
+      "domain": "musicartist",
+      "range": "musicgenre"
+    },
+    "concept:musicgenressuchasmusicgenres": {
+      "domain": "musicgenre",
+      "range": "musicgenre"
+    },
+    "concept:radiostationincity": {
+      "domain": "radiostation",
+      "range": "city"
+    },
+    "concept:conceptprerequisiteof": {
+      "domain": "scientificterm",
+      "range": "scientificterm"
+    },
+    "concept:sporthassportsteamposition": {
+      "domain": "sport",
+      "range": "sportsteamposition"
+    },
+    "concept:sportusesstadium": {
+      "domain": "sport",
+      "range": "stadiumoreventvenue"
+    },
+    "concept:sportsgamesport": {
+      "domain": "sportsgame",
+      "range": "sport"
+    },
+    "concept:sportsgameteam": {
+      "domain": "sportsgame",
+      "range": "sportsteam"
+    },
+    "concept:sportsgamewinner": {
+      "domain": "sportsgame",
+      "range": "sportsteam"
+    },
+    "concept:leaguestadiums": {
+      "domain": "sportsleague",
+      "range": "stadiumoreventvenue"
+    },
+    "concept:teamplaysincity": {
+      "domain": "sportsteam",
+      "range": "city"
+    },
+    "concept:teamwontrophy": {
+      "domain": "sportsteam",
+      "range": "awardtrophytournament"
+    },
+    "concept:teamhomestadium": {
+      "domain": "sportsteam",
+      "range": "stadiumoreventvenue"
+    },
+    "concept:statelocatedincountry": {
+      "domain": "stateorprovince",
+      "range": "country"
+    },
+    "concept:statehascapital": {
+      "domain": "stateorprovince",
+      "range": "city"
+    },
+    "concept:statelocatedingeopoliticallocation": {
+      "domain": "stateorprovince",
+      "range": "country"
+    },
+    "concept:stateorprovinceisborderedbystateorprovince": {
+      "domain": "stateorprovince",
+      "range": "stateorprovince"
+    },
+    "concept:televisionstationincity": {
+      "domain": "televisionstation",
+      "range": "city"
+    },
+    "concept:televisionstationaffiliatedwith": {
+      "domain": "televisionstation",
+      "range": "televisionnetwork"
+    },
+    "concept:weaponssuchasweapons": {
+      "domain": "weapon",
+      "range": "weapon"
+    },
+    "concept:weaponmadeincountry": {
+      "domain": "weapon",
+      "range": "country"
+    }
+  }
+}

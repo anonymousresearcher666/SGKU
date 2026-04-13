@@ -1,0 +1,87 @@
+defaults:
+  # Global settings
+  device: mps  # Device of GPU
+  data_path: "./data/"  # Path of dataset
+  unlearning_save_path: "checkpoint_unlearning"  # Path of checkpoint for unlearning
+  pretrain_save_path: "checkpoint_pretrain"  # Path of checkpoint for pretrain
+
+  log_path: "./logs/"  # Path of logs
+  seed: 1234  # Set random seed ##otheer values 1234,2345, 3456, 4567, 5678
+  batch_size: 1024
+  emb_dim: 256
+  margin: 8.0
+  random_policy: "close" #close, schema
+  # Model settings
+  timesteps_num: 3  # Number of timesteps
+  unlearning_method: "SGKU"  # The name of unlearning
+  kge: "transe" #distmult, rotate, complexe
+  valid_metrics: mrr
+  epoch_num: 50
+  valid: True
+  debug: store_true
+  neg_ratio: 15
+  valid_gap: 10
+  lr: 1.0e-3  # Learning rate for models
+  begin_unlearning: true  # Begin unlearning or not
+  epsilon_grpo: 0.3  # Clipping parameter for GRPO
+  beta_grpo: 0.001  # KL divergence coefficient
+  grpo_frequency: 2 # Apply GRPO every N batches
+  group_size_grpo: 128  # Group size for GRPO
+  grpo_lambda: 0.5  # GRPO loss weight
+  preservation_lambda: 0.5  # Distillation loss weight
+  grouping_strategy: "relation"  # Grouping strategy for triple organization (options: relation, entity, schema, batch)
+
+
+  # Schema-aware unlearning parameters (from previous file)
+  weight_schema: 1.0  # Weight for schema-based loss
+  weight_preference: 0.5  # Weight for preference loss
+  weight_contrastive: 1.0  # Weight for contrastive loss
+  weight_regularization: 0.5  # Weight for regularization loss
+
+
+  # Schema quality assessment and enhancement (from previous file)
+  assess_schema: false  # Assess schema quality before training
+  enhance_schema: false  # Enhance schema based on quality assessment
+  schema_quality_threshold: 0.7  # Threshold for schema quality (0-1)
+datasets:
+  - name: "FB15k-237-10"
+    experiments:
+      - name: "sgku_baseline"
+        unlearning_method: [ "SGKU" ]
+        use_gradient_guided_optimization: [True,False]
+        use_distill_loss: [True,True]
+        boundary_data: [True,False]
+        boundary_lambda: [0.5,0.6,0.7]
+        epsilon_grpo: [ 0.2, 0.3,0.4 ]
+        beta_grpo: [ 0.001,0.002 ]
+        grpo_lambda: [ 0.5,0.6 ]
+        distill_lambda: [ 0.5 ]
+        grouping_strategy: [ "relation" ]
+        gradient_projection_weight: [0.5,0.6,0.7]
+
+      - name: "grpo_ablation"
+        unlearning_method: [ "SGKU" ]
+        epsilon_grpo: [ 0.1, 0.2, 0.3 ]
+        beta_grpo: [ 0.0005, 0.001, 0.002 ]
+        grouping_strategy: [ "relation"]#, "entity", "schema", "batch"
+
+      - name: "sgku_light"
+        unlearning_method: [ "SGKU" ]
+        use_gradient_guided_optimization: [False]
+        use_distill_loss: [False]
+        boundary_data: [False]
+        epsilon_grpo: [0.3]
+        beta_grpo: [0.001]
+        grpo_lambda: [0.0]
+        distill_lambda: [0.0]
+        grouping_strategy: ["relation"]
+
+  - name: "WN18RR"
+    experiments:
+      - name: "sgku_baseline"
+        unlearning_method: [ "SGKU" ]
+        epsilon_grpo: [ 0.2 ]
+        beta_grpo: [ 0.001 ]
+        grpo_lambda: [ 0.5 ]
+        distill_lambda: [ 0.5 ]
+        grouping_strategy: [ "relation" ]

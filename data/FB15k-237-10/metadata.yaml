@@ -1,0 +1,17 @@
+dataset: FB15k-237-10
+kge: transe
+timesteps_num: 1
+criteria:
+  rank_threshold: 2
+  keep_top: null
+  keep_fraction: 0.1
+  per_step_count: 31012
+  per_step_fraction: 0.1
+steps:
+- timestep: 0
+  input_triples: 310116
+  kept: 31012
+  min_rank: 1
+  max_rank: 2
+source: generated
+timesteps_dir: /Volumes/DATI/GitHub/KGUNLEARNING/data/FB15k-237-10/timesteps_transe

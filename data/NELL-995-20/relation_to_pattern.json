@@ -1,0 +1,1002 @@
+{
+  "concept:academicprogramatuniversity": [
+    "academicfield",
+    "concept:academicprogramatuniversity",
+    "university"
+  ],
+  "concept:proxyfor": [
+    "city",
+    "concept:proxyfor",
+    "Entity"
+  ],
+  "concept:atdate": [
+    "Entity",
+    "concept:atdate",
+    "Entity"
+  ],
+  "concept:subpartof": [
+    "Entity",
+    "concept:subpartof",
+    "Entity"
+  ],
+  "concept:academicfieldsuchasacademicfield": [
+    "academicfield",
+    "concept:academicfieldsuchasacademicfield",
+    "academicfield"
+  ],
+  "concept:academicfieldconcernssubject": [
+    "academicfield",
+    "concept:academicfieldconcernssubject",
+    "Entity"
+  ],
+  "concept:synonymfor": [
+    "Entity",
+    "concept:synonymfor",
+    "Entity"
+  ],
+  "concept:mutualproxyfor": [
+    "Entity",
+    "concept:mutualproxyfor",
+    "Entity"
+  ],
+  "concept:ismultipleof": [
+    "Entity",
+    "concept:ismultipleof",
+    "mammal"
+  ],
+  "concept:istallerthan": [
+    "Entity",
+    "concept:istallerthan",
+    "Entity"
+  ],
+  "concept:latitudelongitude": [
+    "Entity",
+    "concept:latitudelongitude",
+    "Entity"
+  ],
+  "concept:atlocation": [
+    "city",
+    "concept:atlocation",
+    "city"
+  ],
+  "concept:actorstarredinmovie": [
+    "actor",
+    "concept:actorstarredinmovie",
+    "movie"
+  ],
+  "concept:hasspouse": [
+    "person",
+    "concept:hasspouse",
+    "person"
+  ],
+  "concept:agentinvolvedwithitem": [
+    "Entity",
+    "concept:agentinvolvedwithitem",
+    "Entity"
+  ],
+  "concept:agentparticipatedinevent": [
+    "Entity",
+    "concept:agentparticipatedinevent",
+    "sportsgame"
+  ],
+  "concept:personchargedwithcrime": [
+    "person",
+    "concept:personchargedwithcrime",
+    "crimeorcharge"
+  ],
+  "concept:personhasresidenceingeopoliticallocation": [
+    "person",
+    "concept:personhasresidenceingeopoliticallocation",
+    "city"
+  ],
+  "concept:agentcreated": [
+    "writer",
+    "concept:agentcreated",
+    "book"
+  ],
+  "concept:haswife": [
+    "person",
+    "concept:haswife",
+    "female"
+  ],
+  "concept:persondiedincountry": [
+    "person",
+    "concept:persondiedincountry",
+    "country"
+  ],
+  "concept:persondiedatage": [
+    "person",
+    "concept:persondiedatage",
+    "Entity"
+  ],
+  "concept:personbelongstoorganization": [
+    "person",
+    "concept:personbelongstoorganization",
+    "sportsteam"
+  ],
+  "concept:personhasjobposition": [
+    "person",
+    "concept:personhasjobposition",
+    "jobposition"
+  ],
+  "concept:personalsoknownas": [
+    "person",
+    "concept:personalsoknownas",
+    "person"
+  ],
+  "concept:worksfor": [
+    "journalist",
+    "concept:worksfor",
+    "company"
+  ],
+  "concept:agentcontributedtocreativework": [
+    "Entity",
+    "concept:agentcontributedtocreativework",
+    "book"
+  ],
+  "concept:personleadsorganization": [
+    "ceo",
+    "concept:personleadsorganization",
+    "company"
+  ],
+  "concept:agentcompeteswithagent": [
+    "Entity",
+    "concept:agentcompeteswithagent",
+    "Entity"
+  ],
+  "concept:agentactsinlocation": [
+    "Entity",
+    "concept:agentactsinlocation",
+    "city"
+  ],
+  "concept:agentcontrols": [
+    "Entity",
+    "concept:agentcontrols",
+    "televisionstation"
+  ],
+  "concept:topmemberoforganization": [
+    "ceo",
+    "concept:topmemberoforganization",
+    "company"
+  ],
+  "concept:hashusband": [
+    "person",
+    "concept:hashusband",
+    "male"
+  ],
+  "concept:personleadsgeopoliticalorganization": [
+    "person",
+    "concept:personleadsgeopoliticalorganization",
+    "city"
+  ],
+  "concept:personbornincity": [
+    "person",
+    "concept:personbornincity",
+    "city"
+  ],
+  "concept:personborninlocation": [
+    "person",
+    "concept:personborninlocation",
+    "city"
+  ],
+  "concept:parentofperson": [
+    "person",
+    "concept:parentofperson",
+    "person"
+  ],
+  "concept:agentcollaborateswithagent": [
+    "sportsteam",
+    "concept:agentcollaborateswithagent",
+    "Entity"
+  ],
+  "concept:personhascitizenship": [
+    "person",
+    "concept:personhascitizenship",
+    "country"
+  ],
+  "concept:persongraduatedfromuniversity": [
+    "person",
+    "concept:persongraduatedfromuniversity",
+    "university"
+  ],
+  "concept:persongraduatedschool": [
+    "person",
+    "concept:persongraduatedschool",
+    "university"
+  ],
+  "concept:organizationalsoknownas": [
+    "university",
+    "concept:organizationalsoknownas",
+    "Entity"
+  ],
+  "concept:organizationterminatedperson": [
+    "company",
+    "concept:organizationterminatedperson",
+    "ceo"
+  ],
+  "concept:objectfoundinscene": [
+    "visualizableobject",
+    "concept:objectfoundinscene",
+    "visualizablescene"
+  ],
+  "concept:objectpartofobject": [
+    "visualizableobject",
+    "concept:objectpartofobject",
+    "visualizableobject"
+  ],
+  "concept:agriculturalproductgrowninlandscapefeatures": [
+    "agriculturalproduct",
+    "concept:agriculturalproductgrowninlandscapefeatures",
+    "landscapefeatures"
+  ],
+  "concept:foodcancausedisease": [
+    "food",
+    "concept:foodcancausedisease",
+    "disease"
+  ],
+  "concept:agriculturalproductincludingagriculturalproduct": [
+    "agriculturalproduct",
+    "concept:agriculturalproductincludingagriculturalproduct",
+    "agriculturalproduct"
+  ],
+  "concept:agriculturalproductcontainchemical": [
+    "agriculturalproduct",
+    "concept:agriculturalproductcontainchemical",
+    "chemical"
+  ],
+  "concept:fooddecreasestheriskofdisease": [
+    "food",
+    "concept:fooddecreasestheriskofdisease",
+    "disease"
+  ],
+  "concept:agriculturalproductcookedwithagriculturalproduct": [
+    "agriculturalproduct",
+    "concept:agriculturalproductcookedwithagriculturalproduct",
+    "agriculturalproduct"
+  ],
+  "concept:agriculturalproductcutintogeometricshape": [
+    "agriculturalproduct",
+    "concept:agriculturalproductcutintogeometricshape",
+    "geometricshape"
+  ],
+  "concept:agriculturalproducttoattractinsect": [
+    "agriculturalproduct",
+    "concept:agriculturalproducttoattractinsect",
+    "insect"
+  ],
+  "concept:thinghascolor": [
+    "color",
+    "concept:thinghascolor",
+    "color"
+  ],
+  "concept:agriculturalproductcomingfromvertebrate": [
+    "Entity",
+    "concept:agriculturalproductcomingfromvertebrate",
+    "bird"
+  ],
+  "concept:agriculturalproductcamefromcountry": [
+    "agriculturalproduct",
+    "concept:agriculturalproductcamefromcountry",
+    "country"
+  ],
+  "concept:animalistypeofanimal": [
+    "mammal",
+    "concept:animalistypeofanimal",
+    "mammal"
+  ],
+  "concept:mammalsuchasmammal": [
+    "mammal",
+    "concept:mammalsuchasmammal",
+    "mammal"
+  ],
+  "concept:animaleatvegetable": [
+    "Entity",
+    "concept:animaleatvegetable",
+    "vegetable"
+  ],
+  "concept:specializationof": [
+    "Entity",
+    "concept:specializationof",
+    "Entity"
+  ],
+  "concept:beveragemadefrombeverage": [
+    "beverage",
+    "concept:beveragemadefrombeverage",
+    "wine"
+  ],
+  "concept:beveragecontainsprotein": [
+    "beverage",
+    "concept:beveragecontainsprotein",
+    "protein"
+  ],
+  "concept:agriculturalproductgrowinginstateorprovince": [
+    "agriculturalproduct",
+    "concept:agriculturalproductgrowinginstateorprovince",
+    "stateorprovince"
+  ],
+  "concept:arthropodcalledarthropod": [
+    "insect",
+    "concept:arthropodcalledarthropod",
+    "insect"
+  ],
+  "concept:animaleatfood": [
+    "Entity",
+    "concept:animaleatfood",
+    "food"
+  ],
+  "concept:animalpreyson": [
+    "mammal",
+    "concept:animalpreyson",
+    "mammal"
+  ],
+  "concept:animaldevelopdisease": [
+    "Entity",
+    "concept:animaldevelopdisease",
+    "disease"
+  ],
+  "concept:thinghasshape": [
+    "geometricshape",
+    "concept:thinghasshape",
+    "geometricshape"
+  ],
+  "concept:animalsuchasfish": [
+    "animal",
+    "concept:animalsuchasfish",
+    "fish"
+  ],
+  "concept:airportincity": [
+    "airport",
+    "concept:airportincity",
+    "city"
+  ],
+  "concept:buildinglocatedincity": [
+    "building",
+    "concept:buildinglocatedincity",
+    "city"
+  ],
+  "concept:touristattractionsuchastouristattraction": [
+    "aquarium",
+    "concept:touristattractionsuchastouristattraction",
+    "attraction"
+  ],
+  "concept:attractionofcity": [
+    "attraction",
+    "concept:attractionofcity",
+    "city"
+  ],
+  "concept:locationlocatedwithinlocation": [
+    "city",
+    "concept:locationlocatedwithinlocation",
+    "Entity"
+  ],
+  "concept:transportationincity": [
+    "transportation",
+    "concept:transportationincity",
+    "city"
+  ],
+  "concept:animalthatfeedoninsect": [
+    "insect",
+    "concept:animalthatfeedoninsect",
+    "insect"
+  ],
+  "concept:animalsuchasinvertebrate": [
+    "insect",
+    "concept:animalsuchasinvertebrate",
+    "invertebrate"
+  ],
+  "concept:animalsuchasinsect": [
+    "insect",
+    "concept:animalsuchasinsect",
+    "insect"
+  ],
+  "concept:invertebratefeedonfood": [
+    "insect",
+    "concept:invertebratefeedonfood",
+    "Entity"
+  ],
+  "concept:arthropodandotherarthropod": [
+    "insect",
+    "concept:arthropodandotherarthropod",
+    "insect"
+  ],
+  "concept:drugpossiblytreatsphysiologicalcondition": [
+    "drug",
+    "concept:drugpossiblytreatsphysiologicalcondition",
+    "disease"
+  ],
+  "concept:hassibling": [
+    "person",
+    "concept:hassibling",
+    "person"
+  ],
+  "concept:visualartistartform": [
+    "visualartist",
+    "concept:visualartistartform",
+    "visualartform"
+  ],
+  "concept:arterycalledartery": [
+    "artery",
+    "concept:arterycalledartery",
+    "artery"
+  ],
+  "concept:bodypartcontainsbodypart": [
+    "bodypart",
+    "concept:bodypartcontainsbodypart",
+    "bodypart"
+  ],
+  "concept:politicianrepresentslocation": [
+    "politicianus",
+    "concept:politicianrepresentslocation",
+    "stateorprovince"
+  ],
+  "concept:politicianusmemberofpoliticalgroup": [
+    "politicianus",
+    "concept:politicianusmemberofpoliticalgroup",
+    "governmentorganization"
+  ],
+  "concept:politicianusendorsedbypoliticianus": [
+    "politicianus",
+    "concept:politicianusendorsedbypoliticianus",
+    "politicianus"
+  ],
+  "concept:politicianusholdsoffice": [
+    "politicianus",
+    "concept:politicianusholdsoffice",
+    "politicaloffice"
+  ],
+  "concept:politicianholdsoffice": [
+    "politicianus",
+    "concept:politicianholdsoffice",
+    "politicaloffice"
+  ],
+  "concept:personmovedtostateorprovince": [
+    "person",
+    "concept:personmovedtostateorprovince",
+    "stateorprovince"
+  ],
+  "concept:athleteplayssport": [
+    "athlete",
+    "concept:athleteplayssport",
+    "sport"
+  ],
+  "concept:coachwontrophy": [
+    "coach",
+    "concept:coachwontrophy",
+    "awardtrophytournament"
+  ],
+  "concept:athleteflyouttosportsteamposition": [
+    "athlete",
+    "concept:athleteflyouttosportsteamposition",
+    "sportsteamposition"
+  ],
+  "concept:athleteinjuredhisbodypart": [
+    "athlete",
+    "concept:athleteinjuredhisbodypart",
+    "bone"
+  ],
+  "concept:athleteplayssportsteamposition": [
+    "athlete",
+    "concept:athleteplayssportsteamposition",
+    "sportsteamposition"
+  ],
+  "concept:athleteplaysinleague": [
+    "athlete",
+    "concept:athleteplaysinleague",
+    "sportsleague"
+  ],
+  "concept:athleteplaysforteam": [
+    "athlete",
+    "concept:athleteplaysforteam",
+    "sportsteam"
+  ],
+  "concept:athleteledsportsteam": [
+    "athlete",
+    "concept:athleteledsportsteam",
+    "sportsteam"
+  ],
+  "concept:athletehomestadium": [
+    "athlete",
+    "concept:athletehomestadium",
+    "stadiumoreventvenue"
+  ],
+  "concept:athletewinsawardtrophytournament": [
+    "athlete",
+    "concept:athletewinsawardtrophytournament",
+    "awardtrophytournament"
+  ],
+  "concept:athletebeatathlete": [
+    "athlete",
+    "concept:athletebeatathlete",
+    "athlete"
+  ],
+  "concept:coachesinleague": [
+    "coach",
+    "concept:coachesinleague",
+    "sportsleague"
+  ],
+  "concept:agentbelongstoorganization": [
+    "televisionstation",
+    "concept:agentbelongstoorganization",
+    "company"
+  ],
+  "concept:fatherofperson": [
+    "male",
+    "concept:fatherofperson",
+    "male"
+  ],
+  "concept:coachesteam": [
+    "coach",
+    "concept:coachesteam",
+    "sportsteam"
+  ],
+  "concept:motherofperson": [
+    "female",
+    "concept:motherofperson",
+    "person"
+  ],
+  "concept:riveremptiesintoriver": [
+    "river",
+    "concept:riveremptiesintoriver",
+    "river"
+  ],
+  "concept:hotelincity": [
+    "hotel",
+    "concept:hotelincity",
+    "city"
+  ],
+  "concept:automobilemakerdealersincountry": [
+    "automobilemaker",
+    "concept:automobilemakerdealersincountry",
+    "country"
+  ],
+  "concept:automakerproducesmodel": [
+    "automobilemaker",
+    "concept:automakerproducesmodel",
+    "automobilemodel"
+  ],
+  "concept:automobilemakerdealersincity": [
+    "automobilemaker",
+    "concept:automobilemakerdealersincity",
+    "city"
+  ],
+  "concept:automobilemakercardealersinstateorprovince": [
+    "automobilemaker",
+    "concept:automobilemakercardealersinstateorprovince",
+    "stateorprovince"
+  ],
+  "concept:hasofficeincountry": [
+    "company",
+    "concept:hasofficeincountry",
+    "country"
+  ],
+  "concept:companyeconomicsector": [
+    "company",
+    "concept:companyeconomicsector",
+    "economicsector"
+  ],
+  "concept:subpartoforganization": [
+    "sportsteam",
+    "concept:subpartoforganization",
+    "Entity"
+  ],
+  "concept:acquired": [
+    "company",
+    "concept:acquired",
+    "company"
+  ],
+  "concept:producesproduct": [
+    "automobilemaker",
+    "concept:producesproduct",
+    "automobilemodel"
+  ],
+  "concept:competeswith": [
+    "company",
+    "concept:competeswith",
+    "company"
+  ],
+  "concept:headquarteredin": [
+    "company",
+    "concept:headquarteredin",
+    "city"
+  ],
+  "concept:companyalsoknownas": [
+    "company",
+    "concept:companyalsoknownas",
+    "company"
+  ],
+  "concept:organizationheadquarteredinstateorprovince": [
+    "sportsteam",
+    "concept:organizationheadquarteredinstateorprovince",
+    "stateorprovince"
+  ],
+  "concept:organizationhiredperson": [
+    "sportsteam",
+    "concept:organizationhiredperson",
+    "coach"
+  ],
+  "concept:hasofficeincity": [
+    "company",
+    "concept:hasofficeincity",
+    "city"
+  ],
+  "concept:organizationheadquarteredincountry": [
+    "governmentorganization",
+    "concept:organizationheadquarteredincountry",
+    "country"
+  ],
+  "concept:organizationdissolvedatdate": [
+    "Entity",
+    "concept:organizationdissolvedatdate",
+    "date"
+  ],
+  "concept:organizationheadquarteredincity": [
+    "company",
+    "concept:organizationheadquarteredincity",
+    "city"
+  ],
+  "concept:awardtrophytournamentisthechampionshipgameofthenationalsport": [
+    "awardtrophytournament",
+    "concept:awardtrophytournamentisthechampionshipgameofthenationalsport",
+    "sport"
+  ],
+  "concept:bacteriaisthecausativeagentofphysiologicalcondition": [
+    "bacteria",
+    "concept:bacteriaisthecausativeagentofphysiologicalcondition",
+    "disease"
+  ],
+  "concept:drughassideeffect": [
+    "drug",
+    "concept:drughassideeffect",
+    "disease"
+  ],
+  "concept:bakedgoodservedwithbeverage": [
+    "bakedgood",
+    "concept:bakedgoodservedwithbeverage",
+    "beverage"
+  ],
+  "concept:organizationacronymhasname": [
+    "governmentorganization",
+    "concept:organizationacronymhasname",
+    "governmentorganization"
+  ],
+  "concept:bankbankincountry": [
+    "bank",
+    "concept:bankbankincountry",
+    "country"
+  ],
+  "concept:bankboughtbank": [
+    "bank",
+    "concept:bankboughtbank",
+    "bank"
+  ],
+  "concept:itemfoundinroom": [
+    "bathroomitem",
+    "concept:itemfoundinroom",
+    "room"
+  ],
+  "concept:parkincity": [
+    "park",
+    "concept:parkincity",
+    "city"
+  ],
+  "concept:bookwriter": [
+    "book",
+    "concept:bookwriter",
+    "writer"
+  ],
+  "concept:stadiumlocatedincity": [
+    "stadiumoreventvenue",
+    "concept:stadiumlocatedincity",
+    "city"
+  ],
+  "concept:buildingfeaturemadefrombuildingmaterial": [
+    "buildingfeature",
+    "concept:buildingfeaturemadefrombuildingmaterial",
+    "buildingmaterial"
+  ],
+  "concept:musicianinmusicartist": [
+    "musician",
+    "concept:musicianinmusicartist",
+    "musicartist"
+  ],
+  "concept:ceoof": [
+    "ceo",
+    "concept:ceoof",
+    "company"
+  ],
+  "concept:chemicalistypeofchemical": [
+    "chemical",
+    "concept:chemicalistypeofchemical",
+    "chemical"
+  ],
+  "concept:drugworkedonbyagent": [
+    "drug",
+    "concept:drugworkedonbyagent",
+    "biotechcompany"
+  ],
+  "concept:citylocatedincountry": [
+    "city",
+    "concept:citylocatedincountry",
+    "country"
+  ],
+  "concept:citylocatedingeopoliticallocation": [
+    "city",
+    "concept:citylocatedingeopoliticallocation",
+    "country"
+  ],
+  "concept:cityliesonriver": [
+    "city",
+    "concept:cityliesonriver",
+    "river"
+  ],
+  "concept:cityalsoknownas": [
+    "city",
+    "concept:cityalsoknownas",
+    "city"
+  ],
+  "concept:citylocatedinstate": [
+    "city",
+    "concept:citylocatedinstate",
+    "stateorprovince"
+  ],
+  "concept:citycapitalofcountry": [
+    "city",
+    "concept:citycapitalofcountry",
+    "country"
+  ],
+  "concept:clothingmadefromplant": [
+    "clothing",
+    "concept:clothingmadefromplant",
+    "plant"
+  ],
+  "concept:clothingtogowithclothing": [
+    "clothing",
+    "concept:clothingtogowithclothing",
+    "clothing"
+  ],
+  "concept:newspaperincity": [
+    "newspaper",
+    "concept:newspaperincity",
+    "city"
+  ],
+  "concept:countryalsoknownas": [
+    "country",
+    "concept:countryalsoknownas",
+    "country"
+  ],
+  "concept:countrylocatedingeopoliticallocation": [
+    "country",
+    "concept:countrylocatedingeopoliticallocation",
+    "country"
+  ],
+  "concept:countrycurrency": [
+    "country",
+    "concept:countrycurrency",
+    "currency"
+  ],
+  "concept:teamplaysinleague": [
+    "sportsteam",
+    "concept:teamplaysinleague",
+    "sportsleague"
+  ],
+  "concept:teamalsoknownas": [
+    "sportsteam",
+    "concept:teamalsoknownas",
+    "sportsteam"
+  ],
+  "concept:directordirectedmovie": [
+    "director",
+    "concept:directordirectedmovie",
+    "movie"
+  ],
+  "concept:emotionassociatedwithdisease": [
+    "emotion",
+    "concept:emotionassociatedwithdisease",
+    "disease"
+  ],
+  "concept:fishservedwithfood": [
+    "fish",
+    "concept:fishservedwithfood",
+    "condiment"
+  ],
+  "concept:plantincludeplant": [
+    "plant",
+    "concept:plantincludeplant",
+    "plant"
+  ],
+  "concept:plantgrowinginplant": [
+    "plant",
+    "concept:plantgrowinginplant",
+    "plant"
+  ],
+  "concept:plantrepresentemotion": [
+    "plant",
+    "concept:plantrepresentemotion",
+    "emotion"
+  ],
+  "concept:furniturefoundinroom": [
+    "furniture",
+    "concept:furniturefoundinroom",
+    "room"
+  ],
+  "concept:teamplayssport": [
+    "sportsteam",
+    "concept:teamplayssport",
+    "sport"
+  ],
+  "concept:teamplaysagainstteam": [
+    "sportsteam",
+    "concept:teamplaysagainstteam",
+    "sportsteam"
+  ],
+  "concept:hobbiessuchashobbies": [
+    "hobby",
+    "concept:hobbiessuchashobbies",
+    "hobby"
+  ],
+  "concept:sportfansincountry": [
+    "sport",
+    "concept:sportfansincountry",
+    "country"
+  ],
+  "concept:sportschoolincountry": [
+    "sport",
+    "concept:sportschoolincountry",
+    "country"
+  ],
+  "concept:sportusesequipment": [
+    "sport",
+    "concept:sportusesequipment",
+    "sportsequipment"
+  ],
+  "concept:professionistypeofprofession": [
+    "profession",
+    "concept:professionistypeofprofession",
+    "profession"
+  ],
+  "concept:professionusestool": [
+    "profession",
+    "concept:professionusestool",
+    "tool"
+  ],
+  "concept:journalistwritesforpublication": [
+    "journalist",
+    "concept:journalistwritesforpublication",
+    "newspaper"
+  ],
+  "concept:lakeinstate": [
+    "lake",
+    "concept:lakeinstate",
+    "stateorprovince"
+  ],
+  "concept:languageofcountry": [
+    "language",
+    "concept:languageofcountry",
+    "country"
+  ],
+  "concept:languageofuniversity": [
+    "language",
+    "concept:languageofuniversity",
+    "university"
+  ],
+  "concept:musicianplaysinstrument": [
+    "musician",
+    "concept:musicianplaysinstrument",
+    "musicinstrument"
+  ],
+  "concept:mountaininstate": [
+    "mountain",
+    "concept:mountaininstate",
+    "stateorprovince"
+  ],
+  "concept:museumincity": [
+    "museum",
+    "concept:museumincity",
+    "city"
+  ],
+  "concept:musicartistgenre": [
+    "musicartist",
+    "concept:musicartistgenre",
+    "musicgenre"
+  ],
+  "concept:musicgenressuchasmusicgenres": [
+    "musicgenre",
+    "concept:musicgenressuchasmusicgenres",
+    "musicgenre"
+  ],
+  "concept:radiostationincity": [
+    "radiostation",
+    "concept:radiostationincity",
+    "city"
+  ],
+  "concept:conceptprerequisiteof": [
+    "scientificterm",
+    "concept:conceptprerequisiteof",
+    "scientificterm"
+  ],
+  "concept:sporthassportsteamposition": [
+    "sport",
+    "concept:sporthassportsteamposition",
+    "sportsteamposition"
+  ],
+  "concept:sportusesstadium": [
+    "sport",
+    "concept:sportusesstadium",
+    "stadiumoreventvenue"
+  ],
+  "concept:sportsgamesport": [
+    "sportsgame",
+    "concept:sportsgamesport",
+    "sport"
+  ],
+  "concept:sportsgameteam": [
+    "sportsgame",
+    "concept:sportsgameteam",
+    "sportsteam"
+  ],
+  "concept:sportsgamewinner": [
+    "sportsgame",
+    "concept:sportsgamewinner",
+    "sportsteam"
+  ],
+  "concept:leaguestadiums": [
+    "sportsleague",
+    "concept:leaguestadiums",
+    "stadiumoreventvenue"
+  ],
+  "concept:teamplaysincity": [
+    "sportsteam",
+    "concept:teamplaysincity",
+    "city"
+  ],
+  "concept:teamwontrophy": [
+    "sportsteam",
+    "concept:teamwontrophy",
+    "awardtrophytournament"
+  ],
+  "concept:teamhomestadium": [
+    "sportsteam",
+    "concept:teamhomestadium",
+    "stadiumoreventvenue"
+  ],
+  "concept:statelocatedincountry": [
+    "stateorprovince",
+    "concept:statelocatedincountry",
+    "country"
+  ],
+  "concept:statehascapital": [
+    "stateorprovince",
+    "concept:statehascapital",
+    "city"
+  ],
+  "concept:statelocatedingeopoliticallocation": [
+    "stateorprovince",
+    "concept:statelocatedingeopoliticallocation",
+    "country"
+  ],
+  "concept:stateorprovinceisborderedbystateorprovince": [
+    "stateorprovince",
+    "concept:stateorprovinceisborderedbystateorprovince",
+    "stateorprovince"
+  ],
+  "concept:televisionstationincity": [
+    "televisionstation",
+    "concept:televisionstationincity",
+    "city"
+  ],
+  "concept:televisionstationaffiliatedwith": [
+    "televisionstation",
+    "concept:televisionstationaffiliatedwith",
+    "televisionnetwork"
+  ],
+  "concept:weaponssuchasweapons": [
+    "weapon",
+    "concept:weaponssuchasweapons",
+    "weapon"
+  ],
+  "concept:weaponmadeincountry": [
+    "weapon",
+    "concept:weaponmadeincountry",
+    "country"
+  ]
+}

@@ -1,0 +1,97 @@
+# CoDEx schema audit (non fully-Wikidata entries)
+
+## CoDEx-S-20
+- P101: domain=Q5 (wikidata_constraint), range=Q5 (llm_fallback), label=field of work
+- P1050: domain=Q5 (data_fallback), range=Q12136 (wikidata_constraint), label=medical condition
+- P138: domain=Q3624078 (llm_fallback), range=Q50330360 (llm_fallback), label=named after
+- P140: domain=Q5 (wikidata_constraint), range=Q49447 (data_fallback), label=religion
+- P1412: domain=Q5 (data_fallback), range=Q215627 (llm_fallback), label=languages spoken, written, or signed
+- P159: domain=Q18127 (data_fallback), range=Q618123 (wikidata_constraint), label=headquarters location
+- P161: domain=Q1800833 (data_fallback), range=Q5 (wikidata_constraint), label=cast member
+- P17: domain=Q18127 (data_fallback), range=Q3624078 (wikidata_constraint), label=country
+- P172: domain=Q215627 (llm_fallback), range=Q41710 (wikidata_constraint), label=ethnic group
+- P19: domain=Q5 (wikidata_constraint), range=Q5 (llm_fallback), label=place of birth
+- P2348: domain=Q5 (llm_fallback), range=Q578 (data_fallback), label=time period
+- P26: domain=Q5 (wikidata_constraint), range=Q5 (data_fallback), label=spouse
+- P3095: domain=Q47280 (llm_fallback), range=Q6266 (llm_fallback), label=practiced by
+- P3373: domain=Q5 (wikidata_constraint), range=Q5 (llm_fallback), label=sibling
+- P361: domain=Q3624078 (llm_fallback), range=Q3624078 (llm_fallback), label=part of
+- P37: domain=Q56061 (wikidata_constraint), range=Q33742 (data_fallback), label=official language
+- P495: domain=Q2424752 (llm_fallback), range=Q6256 (wikidata_constraint), label=country of origin
+- P509: domain=Q5 (data_fallback), range=Q1931388 (wikidata_constraint), label=cause of death
+- P551: domain=Q5 (wikidata_constraint), range=Q5 (llm_fallback), label=residence
+- P737: domain=Q5 (llm_fallback), range=Q5 (data_fallback), label=influenced by
+- P740: domain=Q5 (data_fallback), range=Q43229 (llm_fallback), label=location of formation
+- P749: domain=Q43229 (llm_fallback), range=Q43229 (llm_fallback), label=parent organization
+- P800: domain=Q5 (wikidata_constraint), range=Q188451 (data_fallback), label=notable works
+- P840: domain=Q11424 (data_fallback), range=Q386724 (llm_fallback), label=narrative location
+
+## CoDEx-M-20
+- P101: domain=Q5 (wikidata_constraint), range=Q4671286 (llm_fallback), label=field of work
+- P1050: domain=Q5 (data_fallback), range=Q12136 (wikidata_constraint), label=medical condition
+- P1056: domain=Q2442401 (data_fallback), range=Q43229 (llm_fallback), label=product or material produced
+- P113: domain=Q1248784 (llm_fallback), range=Q1248784 (llm_fallback), label=airline hub
+- P131: domain=Q1549591 (llm_fallback), range=Q56061 (wikidata_constraint), label=located in the administrative terroritorial entity
+- P138: domain=Q3624078 (llm_fallback), range=Q5 (data_fallback), label=named after
+- P1412: domain=Q61002 (wikidata_constraint), range=Q17376908 (llm_fallback), label=languages spoken, written, or signed
+- P159: domain=Q18127 (data_fallback), range=Q618123 (wikidata_constraint), label=headquarters location
+- P161: domain=Q43099500 (llm_fallback), range=Q5 (wikidata_constraint), label=cast member
+- P17: domain=Q3624078 (llm_fallback), range=Q3624078 (wikidata_constraint), label=country
+- P19: domain=Q5 (wikidata_constraint), range=Q5 (llm_fallback), label=place of birth
+- P2283: domain=Q11424 (data_fallback), range=Q7397 (data_fallback), label=uses
+- P2348: domain=Q5 (llm_fallback), range=Q578 (data_fallback), label=time period
+- P26: domain=Q5 (wikidata_constraint), range=Q5 (data_fallback), label=spouse
+- P3095: domain=Q19842652 (data_fallback), range=Q6266 (data_fallback), label=practiced by
+- P3373: domain=Q5 (wikidata_constraint), range=Q5 (llm_fallback), label=sibling
+- P361: domain=Q3624078 (llm_fallback), range=Q3624078 (llm_fallback), label=part of
+- P37: domain=Q56061 (wikidata_constraint), range=Q34770 (data_fallback), label=official language
+- P407: domain=Q1259759 (data_fallback), range=Q17376908 (llm_fallback), label=language of work or name
+- P452: domain=Q18127 (data_fallback), range=Q268592 (wikidata_constraint), label=industry
+- P495: domain=Q11424 (data_fallback), range=Q6256 (wikidata_constraint), label=country of origin
+- P509: domain=Q5 (data_fallback), range=Q1931388 (wikidata_constraint), label=cause of death
+- P54: domain=Q5 (wikidata_constraint), range=Q5 (llm_fallback), label=member of sports team
+- P551: domain=Q5 (wikidata_constraint), range=Q5 (llm_fallback), label=residence
+- P641: domain=Q5 (data_fallback), range=Q31629 (wikidata_constraint), label=sport
+- P737: domain=Q14073567 (llm_fallback), range=Q5 (data_fallback), label=influenced by
+- P740: domain=Q215380 (wikidata_constraint), range=Q43229 (llm_fallback), label=location of formation
+- P749: domain=Q43229 (llm_fallback), range=Q170584 (llm_fallback), label=parent organization
+- P780: domain=Q609748 (data_fallback), range=Q7189713 (llm_fallback), label=symptoms
+- P840: domain=Q11424 (data_fallback), range=Q618123 (wikidata_constraint), label=narrative location
+
+## CoDEx-L-20
+- P101: domain=Q5 (wikidata_constraint), range=Q4671286 (llm_fallback), label=field of work
+- P1050: domain=Q5 (data_fallback), range=Q12136 (wikidata_constraint), label=medical condition
+- P1056: domain=Q4830453 (data_fallback), range=Q43229 (llm_fallback), label=product or material produced
+- P131: domain=Q56061 (llm_fallback), range=Q56061 (wikidata_constraint), label=located in the administrative terroritorial entity
+- P138: domain=Q644371 (data_fallback), range=Q1248784 (llm_fallback), label=named after
+- P1412: domain=Q15632617 (wikidata_constraint), range=Q436240 (llm_fallback), label=languages spoken, written, or signed
+- P1454: domain=Q43229 (wikidata_constraint), range=Q43229 (llm_fallback), label=legal form
+- P159: domain=Q18127 (data_fallback), range=Q618123 (wikidata_constraint), label=headquarters location
+- P161: domain=Q43099500 (llm_fallback), range=Q5 (wikidata_constraint), label=cast member
+- P169: domain=Q43229 (llm_fallback), range=Q5 (wikidata_constraint), label=chief executive officer
+- P17: domain=Q3624078 (llm_fallback), range=Q3624078 (wikidata_constraint), label=country
+- P170: domain=Q184296 (data_fallback), range=Q5 (wikidata_constraint), label=creator
+- P194: domain=Q1048835 (llm_fallback), range=Q11204 (wikidata_constraint), label=legislative body
+- P1995: domain=Q12136 (wikidata_constraint), range=Q930752 (data_fallback), label=health specialty
+- P2176: domain=Q12136 (data_fallback), range=Q11173 (wikidata_constraint), label=drug used for treatment
+- P2283: domain=Q46970 (llm_fallback), range=Q15978299 (llm_fallback), label=uses
+- P2348: domain=Q5 (llm_fallback), range=Q11514315 (llm_fallback), label=time period
+- P2578: domain=Q5 (data_fallback), range=Q4671286 (data_fallback), label=studies
+- P26: domain=Q5 (wikidata_constraint), range=Q95074 (llm_fallback), label=spouse
+- P3095: domain=Q47280 (llm_fallback), range=Q47280 (llm_fallback), label=practiced by
+- P3373: domain=Q5 (wikidata_constraint), range=Q5 (data_fallback), label=sibling
+- P361: domain=Q5 (data_fallback), range=Q13406463 (data_fallback), label=part of
+- P366: domain=Q483110 (data_fallback), range=Q31629 (data_fallback), label=use
+- P37: domain=Q56061 (wikidata_constraint), range=Q34770 (data_fallback), label=official language
+- P407: domain=Q21198342 (llm_fallback), range=Q33742 (data_fallback), label=language of work or name
+- P4552: domain=Q27096213 (llm_fallback), range=Q46831 (wikidata_constraint), label=mountain range
+- P457: domain=Q727002 (llm_fallback), range=Q2571972 (llm_fallback), label=foundational text
+- P466: domain=Q43229 (wikidata_constraint), range=Q13226383 (llm_fallback), label=occupant
+- P495: domain=Q11424 (data_fallback), range=Q6256 (wikidata_constraint), label=country of origin
+- P509: domain=Q5 (data_fallback), range=Q1931388 (wikidata_constraint), label=cause of death
+- P641: domain=Q5 (data_fallback), range=Q31629 (wikidata_constraint), label=sport
+- P737: domain=Q5 (llm_fallback), range=Q5 (data_fallback), label=influenced by
+- P740: domain=Q215380 (wikidata_constraint), range=Q1964689 (llm_fallback), label=location of formation
+- P749: domain=Q431289 (wikidata_constraint), range=Q43229 (llm_fallback), label=parent organization
+- P780: domain=Q7189713 (llm_fallback), range=Q169872 (wikidata_constraint), label=symptoms
+- P840: domain=Q11424 (data_fallback), range=Q82794 (wikidata_constraint), label=narrative location

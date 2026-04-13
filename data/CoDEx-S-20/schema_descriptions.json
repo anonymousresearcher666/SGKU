@@ -1,0 +1,674 @@
+{
+  "P101": {
+    "relation_id": "P101",
+    "relation_label": "field of work",
+    "relation_description": "specialization of a person or organization; see P106 for the occupation",
+    "domain": {
+      "id": "Q5",
+      "label": "human",
+      "source": "wikidata_constraint"
+    },
+    "range": {
+      "id": "Q11862829",
+      "label": "academic discipline",
+      "source": "data_fallback"
+    },
+    "description_nl": "P101 (field of work): expects a head entity of type 'human' [Q5] and a tail entity of type 'academic discipline' [Q11862829]. Property meaning: specialization of a person or organization; see P106 for the occupation. Sources: domain=wikidata_constraint, range=data_fallback."
+  },
+  "P102": {
+    "relation_id": "P102",
+    "relation_label": "member of political party",
+    "relation_description": "the political party of which this politician is or has been a member",
+    "domain": {
+      "id": "Q5",
+      "label": "human",
+      "source": "wikidata_constraint"
+    },
+    "range": {
+      "id": "Q7278",
+      "label": "political party",
+      "source": "wikidata_constraint"
+    },
+    "description_nl": "P102 (member of political party): expects a head entity of type 'human' [Q5] and a tail entity of type 'political party' [Q7278]. Property meaning: the political party of which this politician is or has been a member. Sources: domain=wikidata_constraint, range=wikidata_constraint."
+  },
+  "P1050": {
+    "relation_id": "P1050",
+    "relation_label": "medical condition",
+    "relation_description": "any state relevant to the health of an organism, including diseases and positive conditions",
+    "domain": {
+      "id": "Q5",
+      "label": "human",
+      "source": "data_fallback"
+    },
+    "range": {
+      "id": "Q12136",
+      "label": "disease",
+      "source": "wikidata_constraint"
+    },
+    "description_nl": "P1050 (medical condition): expects a head entity of type 'human' [Q5] and a tail entity of type 'disease' [Q12136]. Property meaning: any state relevant to the health of an organism, including diseases and positive conditions. Sources: domain=data_fallback, range=wikidata_constraint."
+  },
+  "P106": {
+    "relation_id": "P106",
+    "relation_label": "occupation",
+    "relation_description": "occupation of a person; see also \"field of work\" (Property:P101), \"position held\" (Property:P39)",
+    "domain": {
+      "id": "Q5",
+      "label": "human",
+      "source": "wikidata_constraint"
+    },
+    "range": {
+      "id": "Q28640",
+      "label": "profession",
+      "source": "wikidata_constraint"
+    },
+    "description_nl": "P106 (occupation): expects a head entity of type 'human' [Q5] and a tail entity of type 'profession' [Q28640]. Property meaning: occupation of a person; see also \"field of work\" (Property:P101), \"position held\" (Property:P39). Sources: domain=wikidata_constraint, range=wikidata_constraint."
+  },
+  "P108": {
+    "relation_id": "P108",
+    "relation_label": "employer",
+    "relation_description": "person or organization for which the subject works or worked",
+    "domain": {
+      "id": "Q5",
+      "label": "human",
+      "source": "wikidata_constraint"
+    },
+    "range": {
+      "id": "Entity",
+      "label": "Entity",
+      "source": "low_confidence_entity"
+    },
+    "description_nl": "P108 (employer): expects a head entity of type 'human' [Q5] and a tail entity of type 'Entity' [Entity]. Property meaning: person or organization for which the subject works or worked. Sources: domain=wikidata_constraint, range=low_confidence_entity."
+  },
+  "P112": {
+    "relation_id": "P112",
+    "relation_label": "founded by",
+    "relation_description": "founder or co-founder of this organization, religion or place",
+    "domain": {
+      "id": "Q18127",
+      "label": "record label",
+      "source": "wikidata_constraint"
+    },
+    "range": {
+      "id": "Q5",
+      "label": "human",
+      "source": "wikidata_constraint"
+    },
+    "description_nl": "P112 (founded by): expects a head entity of type 'record label' [Q18127] and a tail entity of type 'human' [Q5]. Property meaning: founder or co-founder of this organization, religion or place. Sources: domain=wikidata_constraint, range=wikidata_constraint."
+  },
+  "P119": {
+    "relation_id": "P119",
+    "relation_label": "place of burial",
+    "relation_description": "location of grave, resting place, place of ash-scattering, etc, (e.g. town/city or cemetery) for a person or animal. There may be several places: e.g. re-burials, cenotaphs, parts of body buried separately.",
+    "domain": {
+      "id": "Q5",
+      "label": "human",
+      "source": "wikidata_constraint"
+    },
+    "range": {
+      "id": "Q39614",
+      "label": "cemetery",
+      "source": "wikidata_constraint"
+    },
+    "description_nl": "P119 (place of burial): expects a head entity of type 'human' [Q5] and a tail entity of type 'cemetery' [Q39614]. Property meaning: location of grave, resting place, place of ash-scattering, etc, (e.g. town/city or cemetery) for a person or animal. There may be several places: e.g. re-burials, cenotaphs, parts of body buried separately.. Sources: domain=wikidata_constraint, range=wikidata_constraint."
+  },
+  "P1303": {
+    "relation_id": "P1303",
+    "relation_label": "instrument",
+    "relation_description": "musical instrument that a person plays",
+    "domain": {
+      "id": "Q5",
+      "label": "human",
+      "source": "wikidata_constraint"
+    },
+    "range": {
+      "id": "Q34379",
+      "label": "musical instrument",
+      "source": "wikidata_constraint"
+    },
+    "description_nl": "P1303 (instrument): expects a head entity of type 'human' [Q5] and a tail entity of type 'musical instrument' [Q34379]. Property meaning: musical instrument that a person plays. Sources: domain=wikidata_constraint, range=wikidata_constraint."
+  },
+  "P135": {
+    "relation_id": "P135",
+    "relation_label": "movement",
+    "relation_description": "literary, artistic, scientific or philosophical movement or scene associated with this person or work",
+    "domain": {
+      "id": "Q5",
+      "label": "human",
+      "source": "wikidata_constraint"
+    },
+    "range": {
+      "id": "Q2198855",
+      "label": "cultural movement",
+      "source": "wikidata_constraint"
+    },
+    "description_nl": "P135 (movement): expects a head entity of type 'human' [Q5] and a tail entity of type 'cultural movement' [Q2198855]. Property meaning: literary, artistic, scientific or philosophical movement or scene associated with this person or work. Sources: domain=wikidata_constraint, range=wikidata_constraint."
+  },
+  "P136": {
+    "relation_id": "P136",
+    "relation_label": "genre",
+    "relation_description": "creative work's genre or an artist's field of work (P101). Use main subject (P921) to relate creative works to their topic",
+    "domain": {
+      "id": "Q5",
+      "label": "human",
+      "source": "wikidata_constraint"
+    },
+    "range": {
+      "id": "Q188451",
+      "label": "music genre",
+      "source": "wikidata_constraint"
+    },
+    "description_nl": "P136 (genre): expects a head entity of type 'human' [Q5] and a tail entity of type 'music genre' [Q188451]. Property meaning: creative work's genre or an artist's field of work (P101). Use main subject (P921) to relate creative works to their topic. Sources: domain=wikidata_constraint, range=wikidata_constraint."
+  },
+  "P138": {
+    "relation_id": "P138",
+    "relation_label": "named after",
+    "relation_description": "entity or event that inspired the subject's name, or namesake (in at least one language). Qualifier \"applies to name\" (P5168) can be used to indicate which one",
+    "domain": {
+      "id": "Q1637706",
+      "label": "million city",
+      "source": "data_fallback"
+    },
+    "range": {
+      "id": "Q5",
+      "label": "human",
+      "source": "data_fallback"
+    },
+    "description_nl": "P138 (named after): expects a head entity of type 'million city' [Q1637706] and a tail entity of type 'human' [Q5]. Property meaning: entity or event that inspired the subject's name, or namesake (in at least one language). Qualifier \"applies to name\" (P5168) can be used to indicate which one. Sources: domain=data_fallback, range=data_fallback."
+  },
+  "P140": {
+    "relation_id": "P140",
+    "relation_label": "religion",
+    "relation_description": "religion of a person, organization or religious building, or associated with this subject",
+    "domain": {
+      "id": "Q5",
+      "label": "human",
+      "source": "wikidata_constraint"
+    },
+    "range": {
+      "id": "Q9174",
+      "label": "religion",
+      "source": "data_fallback"
+    },
+    "description_nl": "P140 (religion): expects a head entity of type 'human' [Q5] and a tail entity of type 'religion' [Q9174]. Property meaning: religion of a person, organization or religious building, or associated with this subject. Sources: domain=wikidata_constraint, range=data_fallback."
+  },
+  "P1412": {
+    "relation_id": "P1412",
+    "relation_label": "languages spoken, written, or signed",
+    "relation_description": "language(s) that a person speaks, writes or signs, including the native language(s)",
+    "domain": {
+      "id": "Q5",
+      "label": "human",
+      "source": "data_fallback"
+    },
+    "range": {
+      "id": "Q34770",
+      "label": "language",
+      "source": "data_fallback"
+    },
+    "description_nl": "P1412 (languages spoken, written, or signed): expects a head entity of type 'human' [Q5] and a tail entity of type 'language' [Q34770]. Property meaning: language(s) that a person speaks, writes or signs, including the native language(s). Sources: domain=data_fallback, range=data_fallback."
+  },
+  "P159": {
+    "relation_id": "P159",
+    "relation_label": "headquarters location",
+    "relation_description": "specific location where an organization's headquarters is or has been situated. Inverse property of \"occupant\" (P466).",
+    "domain": {
+      "id": "Q18127",
+      "label": "record label",
+      "source": "data_fallback"
+    },
+    "range": {
+      "id": "Entity",
+      "label": "Entity",
+      "source": "low_confidence_entity"
+    },
+    "description_nl": "P159 (headquarters location): expects a head entity of type 'record label' [Q18127] and a tail entity of type 'Entity' [Entity]. Property meaning: specific location where an organization's headquarters is or has been situated. Inverse property of \"occupant\" (P466).. Sources: domain=data_fallback, range=low_confidence_entity."
+  },
+  "P161": {
+    "relation_id": "P161",
+    "relation_label": "cast member",
+    "relation_description": "actor in the subject production [use \"character role\" (P453) and/or \"name of the character role\" (P4633) as qualifiers] [use \"voice actor\" (P725) for voice-only role]",
+    "domain": {
+      "id": "Q1800833",
+      "label": "rockumentary",
+      "source": "data_fallback"
+    },
+    "range": {
+      "id": "Q5",
+      "label": "human",
+      "source": "wikidata_constraint"
+    },
+    "description_nl": "P161 (cast member): expects a head entity of type 'rockumentary' [Q1800833] and a tail entity of type 'human' [Q5]. Property meaning: actor in the subject production [use \"character role\" (P453) and/or \"name of the character role\" (P4633) as qualifiers] [use \"voice actor\" (P725) for voice-only role]. Sources: domain=data_fallback, range=wikidata_constraint."
+  },
+  "P17": {
+    "relation_id": "P17",
+    "relation_label": "country",
+    "relation_description": "sovereign state of this item; don't use on humans",
+    "domain": {
+      "id": "Q1549591",
+      "label": "big city",
+      "source": "data_fallback"
+    },
+    "range": {
+      "id": "Q3624078",
+      "label": "sovereign state",
+      "source": "wikidata_constraint"
+    },
+    "description_nl": "P17 (country): expects a head entity of type 'big city' [Q1549591] and a tail entity of type 'sovereign state' [Q3624078]. Property meaning: sovereign state of this item; don't use on humans. Sources: domain=data_fallback, range=wikidata_constraint."
+  },
+  "P172": {
+    "relation_id": "P172",
+    "relation_label": "ethnic group",
+    "relation_description": "subject's ethnicity (consensus is that a VERY high standard of proof is needed for this field to be used. In general this means 1) the subject claims it themself, or 2) it is widely agreed on by scholars, or 3) is fictional and portrayed as such)",
+    "domain": {
+      "id": "Q5",
+      "label": "human",
+      "source": "data_fallback"
+    },
+    "range": {
+      "id": "Q41710",
+      "label": "ethnic group",
+      "source": "wikidata_constraint"
+    },
+    "description_nl": "P172 (ethnic group): expects a head entity of type 'human' [Q5] and a tail entity of type 'ethnic group' [Q41710]. Property meaning: subject's ethnicity (consensus is that a VERY high standard of proof is needed for this field to be used. In general this means 1) the subject claims it themself, or 2) it is widely agreed on by scholars, or 3) is fictional and portrayed as such). Sources: domain=data_fallback, range=wikidata_constraint."
+  },
+  "P19": {
+    "relation_id": "P19",
+    "relation_label": "place of birth",
+    "relation_description": "most specific known (e.g. city instead of country, or hospital instead of city) birth location of a person, animal or fictional character",
+    "domain": {
+      "id": "Q5",
+      "label": "human",
+      "source": "wikidata_constraint"
+    },
+    "range": {
+      "id": "Q1637706",
+      "label": "million city",
+      "source": "data_fallback"
+    },
+    "description_nl": "P19 (place of birth): expects a head entity of type 'human' [Q5] and a tail entity of type 'million city' [Q1637706]. Property meaning: most specific known (e.g. city instead of country, or hospital instead of city) birth location of a person, animal or fictional character. Sources: domain=wikidata_constraint, range=data_fallback."
+  },
+  "P20": {
+    "relation_id": "P20",
+    "relation_label": "place of death",
+    "relation_description": "most specific known (e.g. city instead of country, or hospital instead of city) death location of a person, animal or fictional character",
+    "domain": {
+      "id": "Q5",
+      "label": "human",
+      "source": "wikidata_constraint"
+    },
+    "range": {
+      "id": "Entity",
+      "label": "Entity",
+      "source": "low_confidence_entity"
+    },
+    "description_nl": "P20 (place of death): expects a head entity of type 'human' [Q5] and a tail entity of type 'Entity' [Entity]. Property meaning: most specific known (e.g. city instead of country, or hospital instead of city) death location of a person, animal or fictional character. Sources: domain=wikidata_constraint, range=low_confidence_entity."
+  },
+  "P2348": {
+    "relation_id": "P2348",
+    "relation_label": "time period",
+    "relation_description": "time period (historic period or era, sports season, theatre season, legislative period etc.) in which the subject occurred",
+    "domain": {
+      "id": "Q5",
+      "label": "human",
+      "source": "llm_fallback"
+    },
+    "range": {
+      "id": "Q578",
+      "label": "century",
+      "source": "data_fallback"
+    },
+    "description_nl": "P2348 (time period): expects a head entity of type 'human' [Q5] and a tail entity of type 'century' [Q578]. Property meaning: time period (historic period or era, sports season, theatre season, legislative period etc.) in which the subject occurred. Sources: domain=llm_fallback, range=data_fallback."
+  },
+  "P26": {
+    "relation_id": "P26",
+    "relation_label": "spouse",
+    "relation_description": "the subject has the object as their spouse (husband, wife, partner, etc.). Use \"unmarried partner\" (P451) for non-married companions",
+    "domain": {
+      "id": "Q5",
+      "label": "human",
+      "source": "wikidata_constraint"
+    },
+    "range": {
+      "id": "Q5",
+      "label": "human",
+      "source": "data_fallback"
+    },
+    "description_nl": "P26 (spouse): expects a head entity of type 'human' [Q5] and a tail entity of type 'human' [Q5]. Property meaning: the subject has the object as their spouse (husband, wife, partner, etc.). Use \"unmarried partner\" (P451) for non-married companions. Sources: domain=wikidata_constraint, range=data_fallback."
+  },
+  "P264": {
+    "relation_id": "P264",
+    "relation_label": "record label",
+    "relation_description": "brand and trademark associated with the marketing of subject music recordings and music videos",
+    "domain": {
+      "id": "Q5",
+      "label": "human",
+      "source": "wikidata_constraint"
+    },
+    "range": {
+      "id": "Q18127",
+      "label": "record label",
+      "source": "wikidata_constraint"
+    },
+    "description_nl": "P264 (record label): expects a head entity of type 'human' [Q5] and a tail entity of type 'record label' [Q18127]. Property meaning: brand and trademark associated with the marketing of subject music recordings and music videos. Sources: domain=wikidata_constraint, range=wikidata_constraint."
+  },
+  "P27": {
+    "relation_id": "P27",
+    "relation_label": "country of citizenship",
+    "relation_description": "the object is a country that recognizes the subject as its citizen",
+    "domain": {
+      "id": "Q5",
+      "label": "human",
+      "source": "wikidata_constraint"
+    },
+    "range": {
+      "id": "Q3624078",
+      "label": "sovereign state",
+      "source": "wikidata_constraint"
+    },
+    "description_nl": "P27 (country of citizenship): expects a head entity of type 'human' [Q5] and a tail entity of type 'sovereign state' [Q3624078]. Property meaning: the object is a country that recognizes the subject as its citizen. Sources: domain=wikidata_constraint, range=wikidata_constraint."
+  },
+  "P30": {
+    "relation_id": "P30",
+    "relation_label": "continent",
+    "relation_description": "continent of which the subject is a part",
+    "domain": {
+      "id": "Entity",
+      "label": "Entity",
+      "source": "low_confidence_entity"
+    },
+    "range": {
+      "id": "Q5107",
+      "label": "continent",
+      "source": "wikidata_constraint"
+    },
+    "description_nl": "P30 (continent): expects a head entity of type 'Entity' [Entity] and a tail entity of type 'continent' [Q5107]. Property meaning: continent of which the subject is a part. Sources: domain=low_confidence_entity, range=wikidata_constraint."
+  },
+  "P3095": {
+    "relation_id": "P3095",
+    "relation_label": "practiced by",
+    "relation_description": "type of agents that study this subject or work in this profession",
+    "domain": {
+      "id": "Q19842652",
+      "label": "monotheistic religion",
+      "source": "llm_fallback"
+    },
+    "range": {
+      "id": "Q6266",
+      "label": "nation",
+      "source": "data_fallback"
+    },
+    "description_nl": "P3095 (practiced by): expects a head entity of type 'monotheistic religion' [Q19842652] and a tail entity of type 'nation' [Q6266]. Property meaning: type of agents that study this subject or work in this profession. Sources: domain=llm_fallback, range=data_fallback."
+  },
+  "P3373": {
+    "relation_id": "P3373",
+    "relation_label": "sibling",
+    "relation_description": "the subject has the object as their sibling (brother, sister, etc.). Use \"relative\" (P1038) for siblings-in-law (brother-in-law, sister-in-law, etc.) and step-siblings (step-brothers, step-sisters, etc.)",
+    "domain": {
+      "id": "Q5",
+      "label": "human",
+      "source": "wikidata_constraint"
+    },
+    "range": {
+      "id": "Q5",
+      "label": "human",
+      "source": "llm_fallback"
+    },
+    "description_nl": "P3373 (sibling): expects a head entity of type 'human' [Q5] and a tail entity of type 'human' [Q5]. Property meaning: the subject has the object as their sibling (brother, sister, etc.). Use \"relative\" (P1038) for siblings-in-law (brother-in-law, sister-in-law, etc.) and step-siblings (step-brothers, step-sisters, etc.). Sources: domain=wikidata_constraint, range=llm_fallback."
+  },
+  "P35": {
+    "relation_id": "P35",
+    "relation_label": "head of state",
+    "relation_description": "official with the highest formal authority in a country/state",
+    "domain": {
+      "id": "Entity",
+      "label": "Entity",
+      "source": "low_confidence_entity"
+    },
+    "range": {
+      "id": "Q5",
+      "label": "human",
+      "source": "wikidata_constraint"
+    },
+    "description_nl": "P35 (head of state): expects a head entity of type 'Entity' [Entity] and a tail entity of type 'human' [Q5]. Property meaning: official with the highest formal authority in a country/state. Sources: domain=low_confidence_entity, range=wikidata_constraint."
+  },
+  "P361": {
+    "relation_id": "P361",
+    "relation_label": "part of",
+    "relation_description": "object of which the subject is a part (if this subject is already part of object A which is a part of object B, then please only make the subject part of object A). Inverse property of \"has part\" (P527, see also \"has parts of the class\" (P2670)).",
+    "domain": {
+      "id": "Q3624078",
+      "label": "sovereign state",
+      "source": "llm_fallback"
+    },
+    "range": {
+      "id": "Q82794",
+      "label": "region",
+      "source": "data_fallback"
+    },
+    "description_nl": "P361 (part of): expects a head entity of type 'sovereign state' [Q3624078] and a tail entity of type 'region' [Q82794]. Property meaning: object of which the subject is a part (if this subject is already part of object A which is a part of object B, then please only make the subject part of object A). Inverse property of \"has part\" (P527, see also \"has parts of the class\" (P2670)).. Sources: domain=llm_fallback, range=data_fallback."
+  },
+  "P37": {
+    "relation_id": "P37",
+    "relation_label": "official language",
+    "relation_description": "language designated as official by this item",
+    "domain": {
+      "id": "Entity",
+      "label": "Entity",
+      "source": "low_confidence_entity"
+    },
+    "range": {
+      "id": "Q1288568",
+      "label": "modern language",
+      "source": "data_fallback"
+    },
+    "description_nl": "P37 (official language): expects a head entity of type 'Entity' [Entity] and a tail entity of type 'modern language' [Q1288568]. Property meaning: language designated as official by this item. Sources: domain=low_confidence_entity, range=data_fallback."
+  },
+  "P40": {
+    "relation_id": "P40",
+    "relation_label": "child",
+    "relation_description": "subject has object as biological, foster, and/or adoptive child",
+    "domain": {
+      "id": "Q5",
+      "label": "human",
+      "source": "wikidata_constraint"
+    },
+    "range": {
+      "id": "Q5",
+      "label": "human",
+      "source": "wikidata_constraint"
+    },
+    "description_nl": "P40 (child): expects a head entity of type 'human' [Q5] and a tail entity of type 'human' [Q5]. Property meaning: subject has object as biological, foster, and/or adoptive child. Sources: domain=wikidata_constraint, range=wikidata_constraint."
+  },
+  "P451": {
+    "relation_id": "P451",
+    "relation_label": "unmarried partner",
+    "relation_description": "someone with whom the person is in a relationship without being married. Use \"spouse\" (P26) for married couples",
+    "domain": {
+      "id": "Q5",
+      "label": "human",
+      "source": "wikidata_constraint"
+    },
+    "range": {
+      "id": "Q5",
+      "label": "human",
+      "source": "wikidata_constraint"
+    },
+    "description_nl": "P451 (unmarried partner): expects a head entity of type 'human' [Q5] and a tail entity of type 'human' [Q5]. Property meaning: someone with whom the person is in a relationship without being married. Use \"spouse\" (P26) for married couples. Sources: domain=wikidata_constraint, range=wikidata_constraint."
+  },
+  "P463": {
+    "relation_id": "P463",
+    "relation_label": "member of",
+    "relation_description": "organization, musical group, or club to which the subject belongs. Do not use for membership in ethnic or social groups, nor for holding a position such as a member of parliament (use P39 for that).",
+    "domain": {
+      "id": "Q5",
+      "label": "human",
+      "source": "wikidata_constraint"
+    },
+    "range": {
+      "id": "Entity",
+      "label": "Entity",
+      "source": "low_confidence_entity"
+    },
+    "description_nl": "P463 (member of): expects a head entity of type 'human' [Q5] and a tail entity of type 'Entity' [Entity]. Property meaning: organization, musical group, or club to which the subject belongs. Do not use for membership in ethnic or social groups, nor for holding a position such as a member of parliament (use P39 for that).. Sources: domain=wikidata_constraint, range=low_confidence_entity."
+  },
+  "P495": {
+    "relation_id": "P495",
+    "relation_label": "country of origin",
+    "relation_description": "country of origin of this item (creative work, food, phrase, product, etc.)",
+    "domain": {
+      "id": "Q11424",
+      "label": "film",
+      "source": "data_fallback"
+    },
+    "range": {
+      "id": "Q6256",
+      "label": "country",
+      "source": "wikidata_constraint"
+    },
+    "description_nl": "P495 (country of origin): expects a head entity of type 'film' [Q11424] and a tail entity of type 'country' [Q6256]. Property meaning: country of origin of this item (creative work, food, phrase, product, etc.). Sources: domain=data_fallback, range=wikidata_constraint."
+  },
+  "P509": {
+    "relation_id": "P509",
+    "relation_label": "cause of death",
+    "relation_description": "underlying or immediate cause of death.  Underlying cause (e.g. car accident, stomach cancer) preferred.  Use 'manner of death' (P1196) for broadest category, e.g. natural causes, accident, homicide, suicide",
+    "domain": {
+      "id": "Q5",
+      "label": "human",
+      "source": "data_fallback"
+    },
+    "range": {
+      "id": "Q1931388",
+      "label": "cause of death",
+      "source": "wikidata_constraint"
+    },
+    "description_nl": "P509 (cause of death): expects a head entity of type 'human' [Q5] and a tail entity of type 'cause of death' [Q1931388]. Property meaning: underlying or immediate cause of death.  Underlying cause (e.g. car accident, stomach cancer) preferred.  Use 'manner of death' (P1196) for broadest category, e.g. natural causes, accident, homicide, suicide. Sources: domain=data_fallback, range=wikidata_constraint."
+  },
+  "P530": {
+    "relation_id": "P530",
+    "relation_label": "diplomatic relation",
+    "relation_description": "diplomatic relations of the country",
+    "domain": {
+      "id": "Entity",
+      "label": "Entity",
+      "source": "low_confidence_entity"
+    },
+    "range": {
+      "id": "Q6256",
+      "label": "country",
+      "source": "wikidata_constraint"
+    },
+    "description_nl": "P530 (diplomatic relation): expects a head entity of type 'Entity' [Entity] and a tail entity of type 'country' [Q6256]. Property meaning: diplomatic relations of the country. Sources: domain=low_confidence_entity, range=wikidata_constraint."
+  },
+  "P551": {
+    "relation_id": "P551",
+    "relation_label": "residence",
+    "relation_description": "the place where the person is or has been, resident",
+    "domain": {
+      "id": "Q5",
+      "label": "human",
+      "source": "wikidata_constraint"
+    },
+    "range": {
+      "id": "Q1637706",
+      "label": "million city",
+      "source": "data_fallback"
+    },
+    "description_nl": "P551 (residence): expects a head entity of type 'human' [Q5] and a tail entity of type 'million city' [Q1637706]. Property meaning: the place where the person is or has been, resident. Sources: domain=wikidata_constraint, range=data_fallback."
+  },
+  "P69": {
+    "relation_id": "P69",
+    "relation_label": "educated at",
+    "relation_description": "educational institution attended by subject",
+    "domain": {
+      "id": "Q5",
+      "label": "human",
+      "source": "wikidata_constraint"
+    },
+    "range": {
+      "id": "Entity",
+      "label": "Entity",
+      "source": "low_confidence_entity"
+    },
+    "description_nl": "P69 (educated at): expects a head entity of type 'human' [Q5] and a tail entity of type 'Entity' [Entity]. Property meaning: educational institution attended by subject. Sources: domain=wikidata_constraint, range=low_confidence_entity."
+  },
+  "P737": {
+    "relation_id": "P737",
+    "relation_label": "influenced by",
+    "relation_description": "this person, idea, etc. is informed by that other person, idea, etc., e.g. \"Heidegger was influenced by Aristotle\".",
+    "domain": {
+      "id": "Q5",
+      "label": "human",
+      "source": "llm_fallback"
+    },
+    "range": {
+      "id": "Q5",
+      "label": "human",
+      "source": "data_fallback"
+    },
+    "description_nl": "P737 (influenced by): expects a head entity of type 'human' [Q5] and a tail entity of type 'human' [Q5]. Property meaning: this person, idea, etc. is informed by that other person, idea, etc., e.g. \"Heidegger was influenced by Aristotle\".. Sources: domain=llm_fallback, range=data_fallback."
+  },
+  "P740": {
+    "relation_id": "P740",
+    "relation_label": "location of formation",
+    "relation_description": "location where a group or organization was formed",
+    "domain": {
+      "id": "Q5",
+      "label": "human",
+      "source": "data_fallback"
+    },
+    "range": {
+      "id": "Q1093829",
+      "label": "city in the United States",
+      "source": "data_fallback"
+    },
+    "description_nl": "P740 (location of formation): expects a head entity of type 'human' [Q5] and a tail entity of type 'city in the United States' [Q1093829]. Property meaning: location where a group or organization was formed. Sources: domain=data_fallback, range=data_fallback."
+  },
+  "P749": {
+    "relation_id": "P749",
+    "relation_label": "parent organization",
+    "relation_description": "parent organization of an organization, opposite of subsidiaries (P355)",
+    "domain": {
+      "id": "Q18127",
+      "label": "record label",
+      "source": "data_fallback"
+    },
+    "range": {
+      "id": "Q2442401",
+      "label": "record company",
+      "source": "data_fallback"
+    },
+    "description_nl": "P749 (parent organization): expects a head entity of type 'record label' [Q18127] and a tail entity of type 'record company' [Q2442401]. Property meaning: parent organization of an organization, opposite of subsidiaries (P355). Sources: domain=data_fallback, range=data_fallback."
+  },
+  "P800": {
+    "relation_id": "P800",
+    "relation_label": "notable works",
+    "relation_description": "notable scientific, artistic or literary work, or other work of significance among subject's works",
+    "domain": {
+      "id": "Q5",
+      "label": "human",
+      "source": "wikidata_constraint"
+    },
+    "range": {
+      "id": "Q188451",
+      "label": "music genre",
+      "source": "data_fallback"
+    },
+    "description_nl": "P800 (notable works): expects a head entity of type 'human' [Q5] and a tail entity of type 'music genre' [Q188451]. Property meaning: notable scientific, artistic or literary work, or other work of significance among subject's works. Sources: domain=wikidata_constraint, range=data_fallback."
+  },
+  "P840": {
+    "relation_id": "P840",
+    "relation_label": "narrative location",
+    "relation_description": "the narrative of the work is set in this location",
+    "domain": {
+      "id": "Q11424",
+      "label": "film",
+      "source": "data_fallback"
+    },
+    "range": {
+      "id": "Q2264924",
+      "label": "port city",
+      "source": "data_fallback"
+    },
+    "description_nl": "P840 (narrative location): expects a head entity of type 'film' [Q11424] and a tail entity of type 'port city' [Q2264924]. Property meaning: the narrative of the work is set in this location. Sources: domain=data_fallback, range=data_fallback."
+  }
+}

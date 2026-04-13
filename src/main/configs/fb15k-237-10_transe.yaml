@@ -1,0 +1,71 @@
+name: clean_fb15k-237-10_transe
+defaults:
+  device: cuda
+  data_path: "./data/"
+  unlearning_save_path: "checkpoint_unlearning"
+  pretrain_save_path: "checkpoint_pretrain"
+  log_path: ./logs/
+  seed: 1234
+  batch_size: 1024
+  emb_dim: 256
+  margin: 8.0
+  neg_ratio: 15
+  epoch_num: 100
+  timesteps_num: 3
+  random_policy: schema
+  valid_gap: 1
+  lr: 0.00025
+  valid_metrics: mrr
+  debug: false
+  patience: 5
+  eval_sample_size: 0
+  # Faster tuning: sample RETAIN evaluation only (0.0 = full retain set).
+  retain_eval_sample_frac: 0.0
+  retain_eval_sample_size: 0
+  # Optional global sampling fraction (applies to other eval splits too if set).
+  eval_sample_frac: 0.0
+  write_pretrain_baseline: true
+  save_epoch_metrics: true
+  # Safety/debug controls
+  overwrite_unlearning_dir: false
+  start_timestep: 0
+  save_each_epoch: false
+  mps_empty_cache_each_epoch: false
+  success_metric: mrr
+  success_retain_drop_max_frac: 0.15
+  success_forget_improve_min_frac: 0.15
+  stop_on_success: true
+  stop_on_success_mode: patience
+  stop_on_success_patience: 10
+run:
+  dataset: FB15k-237-10
+  method: SGKU
+  kge: transe
+hyperparameters:
+  # Paper-aligned SGKU/GRPO knobs
+  grouping_strategy: relation
+  group_weight_mode: retention_coverage
+  group_weight_alpha: 0.5
+  epsilon_clip: 0.05
+  lambda_kl: 0.12
+  lambda_boundary: 1.1
+  lambda_neg: 0.1
+  temperature_min: 0.1
+  score_ema_alpha: 0.05
+  reference_refresh_m: 6
+  projection_every_k: 50
+  projection_top_n: 10
+  projection_lambda: 0.3
+  # EMA for per-group baseline advantages (reduces minibatch variance)
+  group_baseline_ema: 0.1
+  # Boundary Huber delta scale (multiplied by median boundary embedding norm)
+  boundary_delta_scale: 1.0
+  # SDKU bias controls (training-free hybrid)
+  sdku_bias_scale: 0.45
+  sdku_bias_clip: 0.8
+  kl_refresh_ema_alpha: 0.10
+  enable_unlearning_audit: true
+  audit_score_threshold: 0.0
+  audit_max_samples: 0
+  tau_kl: 0.030
+  audit_rank_threshold: 10
