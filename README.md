@@ -5,14 +5,14 @@ This repository implements **Schema-Guided Knowledge Unlearning (SGKU)** and rel
 **What this repo can do**
 - Pretrain KGE models (TransE, DistMult, RotatE, ComplEx) on KG datasets.
 - Build **model-specific forget sets** from ranked triples.
-- Run **SGKU** and **SDKU** unlearning methods and compare with **retrain** baselines.
+- Run **SGKU** unlearnin and compare with **retrain** baselines.
 - Evaluate checkpoints on retain/forget splits and store metrics.
-- Run hyperparameter sweeps for SGKU/SDKU.
+- Run hyperparameter sweeps for SGKU.
 
 ## Repository Layout
 - `src/`
 - `src/main/`: CLI entrypoints for pretraining, SGKU/SDKU, evaluation, and sweeps.
-- `src/model/`: SGKU/SDKU implementations and KGE models.
+- `src/model/`: SGKU implementations and KGE models.
 - `src/loading/`: dataset loading and schema utilities.
 - `data/`: datasets, schema stores, timesteps, and download/prep scripts.
 - `scripts/`: ready-to-run end-to-end pipelines per dataset.
@@ -74,7 +74,7 @@ python3 data/download_codex.py
 python3 data/download_nell995.py
 ```
 
-## Running SGKU/SDKU Manually
+## Running SGKU Manually
 All runs are driven by YAML config files in `src/main/configs/`.
 
 ### 1) Pretrain a KGE model
@@ -93,8 +93,8 @@ python3 src/main/build_forget_set.py \
   --suffix transe
 ```
 
-### 3) Run SGKU (or SDKU / Retrain)
-Set `run.method` in the YAML to `SGKU`, `SDKU`, or `retrain`:
+### 3) Run SGKU
+Set `run.method` in the YAML to `SGKU` or `retrain`:
 ```bash
 python3 src/main/main.py --config src/main/configs/fb15k-237-10_transe.yaml
 ```
@@ -110,7 +110,6 @@ python3 src/main/eval_checkpoint.py \
 ## Sweeps
 Hyperparameter sweeps live in:
 - `src/main/sweep_sgku.py`
-- `src/main/grid_sdku.py`
 - `src/main/narrow_combo_sweep.py`
 
 Each accepts a config and writes the best configs/checkpoints to the output folders in your YAML.
@@ -119,7 +118,7 @@ Each accepts a config and writes the best configs/checkpoints to the output fold
 Paths are controlled by config defaults (`defaults` section):
 - `logs/`: run logs
 - `checkpoint_pretrain/`: pretrained models
-- `checkpoint_unlearning/`: SGKU/SDKU checkpoints
+- `checkpoint_unlearning/`: SGKU checkpoints
 - `checkpoint_retrain_baseline/`: retrain baselines
 - `results/`: saved metrics (JSON/CSV)
 
